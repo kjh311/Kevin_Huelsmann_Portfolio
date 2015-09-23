@@ -292,6 +292,10 @@ li, h1, p, h2, ul, a{
   font-size: 30px;
 }
 
+.resumeLink{
+  text-decoration: underline;
+}
+
 .resumeLink:hover{
   color: lightblue;
 }
