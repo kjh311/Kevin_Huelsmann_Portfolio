@@ -391,6 +391,142 @@ ul{
   right: 0px;
 }
 
+@media (max-width: 650px) {
+
+#backgroundPic{
+  height: 900px;
+  width: 700px;
+}
+
+#GaLogo, #AmLogo{
+  margin-left: -20px;
+  width: 300px;
+}
+
+#kevinPic{
+  width: 200px;
+}
+
+#paragraphOne{
+  margin-top: 0px;
+  width: 300px;
+  float: right;
+  margin-right: 60px;
+  max-width: 800px;
+}
+
+#paragraphThree{
+  margin-top: 600px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+#paragraphFour{
+  margin-top: 1500px;
+  max-width: 450px;
+  margin-left: 120px;
+}
+
+#name{
+  font-size: 30px;
+}
+
+.text{
+  font-size: 20px;
+}
+
+#scroll{
+  font-size: 20px;
+  margin-top: -200px;
+  /*position: absolute;*/
+}
+
+#showcase{
+  font-size: 25px;
+}
+
+#project1{
+  margin-top: 2000px;
+  position: absolute;
+  margin-left: 0px;
+  max-width: 350px;
+}
+
+#project1link{
+  font-size: 10px;
+}
+
+#project4Pic, #project1Pic{
+  max-width: 250px;
+  height: 150px;
+}
+
+#paragraph4Text{
+  margin-left: 70px;
+}
+
+a, p{
+  font-size: 20px;
+}
+
+#project4{
+  margin-top: 3000px;
+  position: absolute;
+  margin-left: -80px;
+}
+
+#project4link, #project1link{
+  font-size: 40px;
+}
+
+#hobbies{
+  margin-top: 3700px;
+  max-width: 500px;
+}
+
+#contact{
+  max-width: 200px;
+  font-size: 20px;
+  margin-top: 4400px;
+  margin-bottom: 150px;
+}
+
+#toonTreasureChest{
+  top: 680px;
+  margin-left: 380px;
+  width: 150px;
+}
+
+#crab{
+  width: 150px;
+  top: 680px;
+  margin-left: 150px;
+  height: 150px;
+}
+
+#swimmingfishone{
+  margin-left: -150px;
+  width: 200px;
+  margin-top: 430px;
+}
+
+#yellowFish{
+  margin-left: 50px;
+  width: 250px;
+  margin-top: 50px;
+}
+
+#scubaSteve{
+  margin-left: 300px;
+  width: 200px;
+}
+
+#goldfish{
+  margin-left: -250px;
+  margin-top: 00px;
+}
+}
+
 
 
 
