@@ -950,19 +950,19 @@ a, p{
   max-width: 400px;
   font-size: 20px;
   margin-top: 4400px;
-  margin-bottom: 150px;
+  margin-bottom: 250px;
   left: -50px;
 }
 
 #toonTreasureChest{
-  top: 1230px;
+  top: 1210px;
   margin-left: 180px;
   width: 150px;
 }
 
 #crab{
   width: 150px;
-  top: 1230px;
+  top: 1210px;
   margin-left: 50px;
   height: 150px;
 }
