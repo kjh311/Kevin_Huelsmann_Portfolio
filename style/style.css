@@ -835,6 +835,11 @@ a, p{
 
 @media (max-width: 400px) {
 
+#bubs{
+  left: -225px;
+  width: 100px;
+}
+
 #backgroundPic{
   height: 1800px;
   width: 700px;
@@ -847,10 +852,11 @@ a, p{
 
 #kevinPic{
   width: 150px;
+  margin: 10px;
 }
 
 #paragraphOne{
-  margin-top: 185px;
+  margin-top: 155px;
   width: 300px;
   float: right;
   margin-right: 60px;
@@ -879,6 +885,7 @@ a, p{
 
 #scroll{
   font-size: 20px;
+  margin-top: 00px;
 }
 
 #showcase{
@@ -925,10 +932,11 @@ a, p{
 }
 
 #contact{
-  max-width: 200px;
+  max-width: 400px;
   font-size: 20px;
   margin-top: 4400px;
   margin-bottom: 150px;
+  left: -50px;
 }
 
 #toonTreasureChest{
