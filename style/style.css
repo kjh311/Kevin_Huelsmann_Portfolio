@@ -29,7 +29,7 @@ body{
 }
 
 #backgroundPic{
-  width: 1300px;
+  width: 1800px;
   height: 1300px;
   display: cover;
   position: absolute;
@@ -805,7 +805,7 @@ a, p{
 }
 
 #toonTreasureChest{
-  top: 640px;
+  top: 610px;
   margin-left: 380px;
   width: 150px;
   margin-bottom: 50px;
@@ -813,7 +813,7 @@ a, p{
 
 #crab{
   width: 150px;
-  top: 640px;
+  top: 610px;
   margin-left: 150px;
   height: 150px;
 }
