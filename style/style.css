@@ -63,7 +63,11 @@ body{
   font-size: 50px;
   margin: 10px;
   float: left;
+  top: -70px;
+  left: 320px;
+  position: relative;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+  display: inline;
 }
 
 #chest{
@@ -519,6 +523,7 @@ a, p{
 
 #sunglassFish{
   margin-left: 700px;
+  margin-top: -190px;
 }
 
 #blueFish{
@@ -567,6 +572,12 @@ a, p{
 #backgroundPic{
   height: 1600px;
   width: 800px;
+}
+
+.btn{
+  top: 50px;
+  left: 120px;
+  position: relative;
 }
 
 #sunglassFish{
@@ -710,6 +721,10 @@ a, p{
   margin-top: 1100px;
 }
 
+form{
+  display: inline;
+}
+
 #goldfish{
   margin-left: -250px;
   margin-top: 00px;
@@ -767,7 +782,7 @@ a, p{
 
 #scroll{
   font-size: 20px;
-  margin-top: -200px;
+  margin-top: -190px;
   /*position: absolute;*/
 }
 
