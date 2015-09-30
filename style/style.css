@@ -34,7 +34,6 @@ body{
   display: cover;
   position: absolute;
   top: 00px;
-  /*opacity: 50%;*/
   z-index: -2;
 }
 
@@ -95,7 +94,6 @@ body{
   margin-left: 250px;
 }
 
-
 #downArrow{
   position: absolute;
   margin-top: 520px;
@@ -132,7 +130,6 @@ body{
   background: url('fg.jpg') ;
   background-size: 1000px;
   position: fixed;
-  /*width: 100%;*/
   height: 500%;
   margin-top: 800px;
   top:0;
@@ -144,7 +141,6 @@ body{
   background: url('farMiddleGround.jpg') ;
   background-size: 1000px;
   position: fixed;
-  /*width: 100%;*/
   height: 500%;
   margin-top: 800px;
   top:0;
@@ -169,7 +165,7 @@ body{
   font-size: 75px;
 }
 
-.fa fa-arrow-circle-down{
+.fa, .fa-arrow-circle-down{
   font-size: 250px;
 }
 
@@ -185,7 +181,6 @@ body{
   border-radius: 20px;
 }
 
-
 #goldfish{
   margin-top: -200px;
   margin-right: -500px;
@@ -195,7 +190,6 @@ body{
   margin-top: 4100px;
   position: absolute;
 }
-
 
 li, h1, p, h2, ul, a{
   color: white;
@@ -243,7 +237,6 @@ li, h1, p, h2, ul, a{
   top: 500px;
   position: absolute;
   left: 60px;
-  /*max-width: 800px;*/
 }
 
 #paragraphThree{
@@ -256,7 +249,6 @@ li, h1, p, h2, ul, a{
 #paragraphFour{
   position: absolute;
   margin-top: 1900px;
-  /*max-width: 800px;*/
 }
 
 #project4Pic, #project1Pic{
@@ -289,23 +281,6 @@ li, h1, p, h2, ul, a{
   border: 3px solid lightblue;
 }
 
-/*ul{
-  position: absolute;
-  right: 150px;
-  margin-top: 300px;
-}*/
-
-/*#firstParagraph{
-  position: absolute;
-  left: 60px;
-  width: 600px  ;
-}
-
-#fourthParagraph{
-  position: absolute;
-  margin-top: 700px;
-}*/
-
 .reggaefish{
   width: 80%;
   margin-left: 700px;
@@ -334,7 +309,6 @@ li, h1, p, h2, ul, a{
 }
 
 section {
-  /*color: #fff;*/
   font-family: arial;
   width: 600px;
   margin: auto;
@@ -350,22 +324,17 @@ section {
 #scubaGirl{
   width: 150px;
   margin-top: 100px;
-  /*position: absolute;*/
-  /*right: 100px;*/
 }
 
 #scubaSteve{
   width: 350px;
-  /*float: right;*/
   margin-top: 750px;
   margin-left: 800px;
-  /*margin-right: 50px;*/
   right: 0px;
 }
 
 #shark{
   margin-top: 900px;
-  /*position: absolute;*/
   width: 10%;
   height: 10%;
 }
@@ -393,13 +362,11 @@ section {
 #swimmingfishone{
   width: 400px;
   margin-top: -250px;
-  /*position: absolute;*/
   margin-left: 200px;
 }
 
 .text{
   line-height: 60px;
-  /*display: block;*/
 }
 
 #thirdParagraph{
@@ -412,7 +379,6 @@ section {
   position: absolute;
   top: 800px;
   margin-left: 800px;
-  /*right: 400px;*/
 }
 
 #turtle{
@@ -422,22 +388,15 @@ section {
   margin-left: 300px;
 }
 
-ul{
-  /*position: absolute;*/
-  /*margin-top: 800px;*/
-}
-
 #yellowFish{
   width: 250px;
-  /*float: right;*/
   margin-top: -250px;
   margin-left: 600px;
-  /*margin-right: 50px;*/
   right: 0px;
 }
 
+/*Ipad landscape*/
 @media (max-width: 1050px) {
-
 #project4link, #project1link{
   font-size: 40px;
   border: 3px solid rgba(255,255,255,0.0);
@@ -602,7 +561,7 @@ a, p{
 }
 }
 
-
+/*Ipad portrait*/
 @media (max-width: 800px) {
 
 #backgroundPic{
@@ -664,7 +623,6 @@ a, p{
 #scroll{
   font-size: 20px;
   margin-top: 200px;
-  /*position: absolute;*/
 }
 
 #showcase{
@@ -758,6 +716,7 @@ a, p{
 }
 }
 
+/*Galaxy S4 landscape*/
 @media (max-width: 700px) {
 
 #backgroundPic{
@@ -909,8 +868,7 @@ a, p{
 }
 
 
-
-
+/*Galaxy S4 Portrait*/
 @media (max-width: 400px) {
 
 #bubs{

@@ -14,11 +14,4 @@ $( document ).ready(function() {
   $(window).scroll(function(e){
       parallax();
   });
-
-  $("#scubaSteve").click(function(){
-        // $("#scubaSteve").hide( "slide", { direction: "down"  }, 2000 );
-        alert('click works!');
-  });
-
-
 });
