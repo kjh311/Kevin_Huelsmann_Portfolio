@@ -28,10 +28,10 @@ button{
   margin-top: 20px;
   background-color: lightblue;
   border-radius: 20px;
-  border: 2px solid rgba(0,0,0, 0.0);
+  border: 5px solid rgba(255,255,255, 0.1);
 }
 button:hover{
-  border: 2px solid white;
+  border: 5px solid white;
 }
 #resumeDoc{
   margin-left: 20px;
@@ -71,15 +71,17 @@ button:hover{
 .text{
   font-size: 20px;
 }
-#email{
+#email, .white{
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 /*.strokeText{
   -webkit-text-stroke: 1px black;
   font-size: 40px;
 }*/
-
+h5{
+  margin-bottom: 15px;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
