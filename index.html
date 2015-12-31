@@ -1,138 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Kevin Huelsmann Portfolio</title>
 
-  <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width,
-          initial-scale=1.0, maximum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Kevin Huelsmann Web Development Portfolio</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="/img/Kev.png"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
-    </script>
-    <script src="js/jquery.js"></script>
-  </head>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="icon" type="image/png" href="./assets/Kev.png"/>
 
-
-  <body>
-
-    <!-- 1st Paragraph -->
-    <div class="container text-right" id="paragraphOne">
-      <h1 id="name">Kevin Huelsmann</h1>
-      <h1 id="hiText" class="text">Hi. My name's Kevin, I'm a design oriented full stack developer with an interest in the MEAN stack.  I enjoy programming because I am full of creative ideas and enjoy bringing them into reality.  I love design and I'm a Photoshop ninja!  In addition to programming I enjoy art and travel.</h1>
-    </div>
-
-    <!-- 2nd Paragraph -->
-    <div class="container text-left" id="paragraphTwo">
-      <p id="scroll" class="text">
-        Scroll down for more info!  </p>
-        <i class="fa fa-arrow-circle-down fa-3x"></i>
-    </div>
-
-    <!-- 3rd Paragraph -->
-    <div class="container text-left" id="paragraphThree">
-      <a class="nonHighlightLink" href="https://generalassemb.ly" target="_blank"><img id="GaLogo" src="img/GA.png"></a>
-      <h1 class="text">As a graduate of General Assembly's Web Development Immersive Bootcamp,
-        I have devoted over 600 hours to understanding web development.
-        Through General Assembly I have gained a number of skills:</h1>
-      <ul>
-        <li class="text">Ability to work on a team</li>
-        <li class="text">The ability to problem solve</li>
-        <li class="text">Ability to use the MEAN stack and Ruby on Rails</li>
-        <li class="text">Knowledge of best practices</li>
-        <li class="text">Test-Driven Development</li>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Kevin Huelsmann</a>
+      <ul class="right hide-on-med-and-down">
+        <li><A HREF="#education">Education</A></li>
+        <li><A HREF="#projects">Projects</A></li>
+        <li><A HREF="#interests">Additional Interests</A></li>
+        <li><A HREF="#contact">Contact</A></li>
       </ul>
-      <br>
-      <br>
-      <i class="fa fa-arrow-circle-down fa-3x"></i>
-    </div>
 
-    <!-- 4th Paragraph -->
-    <div class="container text-right" id="paragraphFour">
-      <a class="nonHighlightLink" href="http://www.animationmentor.com/" target="_blank"><img id="AmLogo" src="img/AM_Logo.jpeg"></a>
-      <h1 class="text">As a graduate of Animation Mentor's Digital Character Animation Course,
-        I have developed a greater sense of creativity, visual design, and user experience.</h1>
-      <br>
-      <br>
-      <i class="fa fa-arrow-circle-down fa-3x"></i>
+      <ul id="nav-mobile" class="side-nav">
+        <li><A HREF="#education">Education</A></li>
+        <li><A HREF="#projects">Projects</A></li>
+        <li><A HREF="#interests">Additional Interests</A></li>
+        <li><A HREF="#contact">Contact</A></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
+  </nav>
 
-    <!-- Project 1 -->
-    <div class="container text-left" id="project1">
-      <h1 class="text" id="showcase">General Assembly Project Showcase!</h1>
-      <br>
-      <br>
-      <br>
-      <p>
-        <a id="project1link" class="link text" href="http://kjh311.github.io/Game_of_Thrones_Concentration_Game/" target="_blank" title="">Project 1: Game of Thrones Concentration Game</a>
-      </p>
-      <img id="project1Pic" src="img/Project1.jpg" alt="">
-      <p class="text">This was a study in game logic with a heavy emphasis on jQuery and CSS.</p>
-      <i class="fa fa-arrow-circle-down fa-3x"></i>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center text-lighten-2">Kevin Huelsmann Portfolio</h1>
+        <div class="row center">
+          <img id="kevPic"  src="Kev.png" alt="Kev Mug">
+
+          <h5 class="header col s12 strokeText light" id="">Hi. My name's Kevin, I'm a design oriented full stack developer with an interest in the MEAN stack.  I enjoy programming because I am full of creative ideas and enjoy bringing them into reality.  I love design and I'm a Photoshop ninja!  In addition to programming I enjoy art and travel.</h5>
+        </div>
+
+        <!-- <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div> -->
+        <br><br>
+
+      </div>
     </div>
-
-    <!-- Project 4 -->
-    <div class="container text-right" id="project4">
-      <p>
-        <a id="project4link" class="link" href="https://craft-beerzilla.herokuapp.com/" target="_blank" title="">Project 4: Craft Beer-zilla</a>
-      </p>
-      <img id="project4Pic" src="img/Project4.jpg" alt="project4">
-      <p id="paragraph4Text"  class="text">This project was designed as a craft brewery and beer reviewer.  It uses the MEAN stack and grabs the data through a third party API.</p>
-      <i class="fa fa-arrow-circle-down fa-3x"></i>
+    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1">
     </div>
+  </div>
 
-    <!-- Hobbies -->
-    <div class="container text-center" id="hobbies">
-      <h2>In addition to programming I also enjoy art, animation, and travel:</h2>
-      <br>
-      <br>
-      <p>
-      <a class="link" href="http://kevinhuelsmannportfolio.weebly.com/artwork.html" target="_blank" title=""> Digital Art Portfolio</a>
-      <br>
-      <br>
-      <a class="link" href="http://kevinhuelsmannportfolio.weebly.com/" target="_blank" title="">  Animation Portfolio</a>
-      <br>
-      <br>
-      <a class="link" href="https://www.travelblog.org/Bloggers/Kevin-and-Amarryn/" target="_blank" title=""> Travel Blog</a>
-      </p>
-      <i class="fa fa-arrow-circle-down fa-3x"></i>
+  <div class="container">
+    <div class="section">
+      <A NAME="education">
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center brown-text"><!-- <i class="material-icons">flash_on</i> --></h2>
+            <a href="https://generalassemb.ly" target="_blank"><img id="GaLogo" src="GA.png"></a>
+            <!-- <h3 class="center">General Assembly</h3> -->
+
+            <h5 class="light">As a graduate of General Assembly's Web Development Immersive Bootcamp, I have devoted over 600 hours to understanding web development.
+            Through General Assembly I have gained a number of skills:</h5>
+             <ul>
+              <li class="text">- Ability to work on a team</li>
+              <li class="text">- The ability to problem solve</li>
+              <li class="text">- Ability to use the MEAN stack and Ruby on Rails</li>
+              <li class="text">- Knowledge of best practices</li>
+              <li class="text">- Test-Driven Development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <h2 class="center brown-text"><!-- <i class="material-icons">group</i> --></h2>
+            <!-- <h3 class="center"></h3> -->
+            <a href="http://www.animationmentor.com/" target="_blank"><img id="AmLogo" src="AM_Logo.jpeg"></a>
+
+            <h5 class="light">As a graduate of Animation Mentor's Digital Character Animation Course,
+        I have developed a greater sense of creativity, visual design, and user experience.</h5>
+          </div>
+        </div>
+
+      </div>
+
     </div>
+  </div>
 
-    <!-- Contact Info -->
-    <div class="container text-left" id="contact">
-      <h1 class="text" id="contactKevin">Contact Kevin Huelsmann!!</h1>
-      <h1 class="text">Phone: (505) 999-8141</h1>
-      <h1 class="text">Email: <a class="link text"  href="mailto:kjh311@gmail.com" "email me">KJH311@GMAIL.COM</a></h1>
-      <h1 class="text">Github: <a class="link text" href="https://github.com/kjh311" target="_blank" title="">https://github.com/kjh311</a></h1>
-      <h1 class="text">LinkedIn: <a  class="link text" href="https://www.linkedin.com/in/kevinhuelsmann" target="_blank"title="">https://www.linkedin.com/in/kevinhuelsmann</a></h1>
 
-      <!-- Resume Download -->
-      <h1 id="resumeText" class="text">Resume Download:
-      <!-- <form method="get" action="Kevin_Huelsmann_Tech_Resume.doc">
-      <button type="submit" class="btn btn-info"><h3>Word Doc</h3></button>
-      </form> -->
-      <form method="get" action="Kevin_Huelsmann_Tech_Resume.pdf" target="_blank">
-      <button type="submit" class="btn btn-info"><h3>PDF</h3></button>
-      </form>
-      </h1>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="header col s12 light">General Assembly Project Showcase:</h3>
+        </div>
+      </div>
     </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
 
-    <!-- Middle Ground Pictures -->
-    <div class="mg">
-      <img id="kevinPic" src="img/Kev.png" alt="kevo">
-      <img id="scubaSteve" src="img/ScubaSteve.gif" alt="">
-      <img id="yellowFish" src="img/YellowFish.gif" alt="">
+ <div class="container">
+  <div class="section">
+    <div class="center">
     </div>
+    <A NAME="projects">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <a href="http://kjh311.github.io/Game_of_Thrones_Concentration_Game/" target="_blank"><h4 class="center highlightText">Game of Thrones Concentration Game</h4></a>
+            <a href="http://kjh311.github.io/Game_of_Thrones_Concentration_Game/" target="_blank"><img id="project1Pic" src="Project1.jpg"></a>
+            <h5 class="light">This was a study in game logic with a heavy emphasis on jQuery and CSS.</h5>
+          </div>
+        </div>
 
-    <!-- Background Pictures -->
-    <div class="bg" >
-      <img id="backgroundPic" src="img/BackgroundPic.jpg" alt="">
-      <img id="toonTreasureChest" src="img/TreasureChest.png" alt="">
-      <img id="crab" src="img/Crab.gif" alt="">
+        <div class="row">
+        <div class="col s12 m6">
+          <div class="icon-block">
+            <a href="https://craft-beerzilla.herokuapp.com/" target="_blank"><h4 class="center highlightText">Craft Beer-Zilla</h4></a>
+            <a href="https://craft-beerzilla.herokuapp.com/" target="_blank"><img id="project4Pic" src="Project4.jpg"></a>
+            <h5 class="light">This project was designed as a craft brewery and beer reviewer.  It uses the MEAN stack and grabs the data through a third party API.</h5>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="header col s12 light">In addition to programming I enjoy art, animation, and travel</h3>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+   <div class="container">
+  <div class="section">
+    <div class="center">
+    </div>
+    <A NAME="interests">
+
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="http://kevinhuelsmannportfolio.weebly.com/artwork.html" target="_blank"><h4 class="center highlightText">Digital Art Portfolio</h4></a>
+            <a href="http://kevinhuelsmannportfolio.weebly.com/artwork.html" target="_blank"><img id="artPic" src="artPic.jpg"></a>
+            <h5 class="light">My portfolio of some digital art I've done in Photoshop.</h5>
+          </div>
+        </div>
+
+        <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="http://kevinhuelsmannportfolio.weebly.com/" target="_blank"><h4 class="center highlightText">Animation Portfolio</h4></a>
+            <a href="http://kevinhuelsmannportfolio.weebly.com/" target="_blank"><img id="animationPic" src="animationPic.jpg"></a>
+            <h5 class="light">My portfolio of animation I've done for Animation Mentor.</h5>
+          </div>
+        </div>
+
+         <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <a href="https://www.travelblog.org/Bloggers/Kevin-and-Amarryn/" target="_blank"><h4 class="center highlightText">Travel Blog</h4></a>
+            <a href="https://www.travelblog.org/Bloggers/Kevin-and-Amarryn/" target="_blank"><img id="travelPic" src="travelPic.jpg"></a>
+            <h5 class="light">A travel blog I've written about our adventures through 30+ countries.</h5>
+          </div>
+        </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="header col s12 light">Contact Kevin Huelsmann!!</h3>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background4.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <A NAME="contact">
+        <div class="col l6 s6">
+
+           <h5 class="white-text">Phone: (505) 999-8141</h5>
+           <h5 class="white-text" id="email">Email: <a class="link text" href="mailto:kjh311@gmail.com">KJH311@GMAIL.COM</a></h5>
+           <h5 class="white-text">Github: <a class="link text" href="https://github.com/kjh311" target="_blank" title="">https://github.com/kjh311</a></h5>
+           <h5 class="white-text">LinkedIn: <a  class="link text" href="https://www.linkedin.com/in/kevinhuelsmann" target="_blank"title="">https://www.linkedin.com/in/kevinhuelsmann</a></h5>
+
+
+
+        </div>
+        <div class="col l3 s6">
+          <h5 class="white-text">Download Resume:</h5>
+            <form method="get" action="Kevin_Huelsmann_Tech_Resume.pdf" target="_blank">
+             <button type="submit" ><h5>PDF</h5></button>
+            </form>
+            <form method="get" action="Kevin_Huelsmann_Tech_Resume.doc">
+            <button id="resumeDoc" type="submit"><h5>Word Doc</h5></button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      <!-- Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> -->
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="./assets/jquery-1.11.3.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
   </body>
 </html>

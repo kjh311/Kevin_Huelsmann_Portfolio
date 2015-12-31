@@ -1,3 +1,5 @@
-Simple about Me page.
+Kevin Huelsmann Portfolio
 
-Using simple parallax in CSS and Jquery.
+Simple ABOUT ME page showcasing student projects.
+
+Created using CSS, JQUERY, and MATERIALIZE.
