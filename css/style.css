@@ -101,9 +101,13 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+.parallax-container .section {
     width: 100%;
-  }
+}
+#wordWrap{
+  word-wrap: break-word;
+  /*line-height: 20px;*/
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
