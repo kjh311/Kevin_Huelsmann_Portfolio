@@ -23,7 +23,7 @@
   margin-bottom: 13px;
 }
 button{
-  float: left;
+  /*float: left;*/
   display: inline;
   margin-top: 20px;
   background-color: lightblue;
@@ -34,7 +34,7 @@ button:hover{
   border: 5px solid white;
 }
 #resumeDoc{
-  margin-left: 20px;
+  /*margin-left: 20px;*/
 }
 .link{
   max-width: 100%;
