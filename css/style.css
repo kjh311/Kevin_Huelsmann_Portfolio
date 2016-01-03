@@ -128,6 +128,9 @@ p {
     font-size: 20px;
     margin-bottom: 10px;
   }
+  #samples{
+    font-size: 35px;
+  }
 
 
 }
@@ -142,6 +145,9 @@ p {
   }
   .interestsText{
     margin-top: -50px;
+  }
+  #samples{
+    font-size: 30px;
   }
 
 }
