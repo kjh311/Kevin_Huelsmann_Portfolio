@@ -7,6 +7,7 @@
  */
 #aboutMeText{
   /*float: right;*/
+  margin-bottom: 50px;
 }
 #GaLogo{
   border: 5px solid rgba(0,255,255,0.1);
@@ -29,6 +30,9 @@ button{
   background-color: lightblue;
   border-radius: 20px;
   border: 5px solid rgba(255,255,255, 0.2);
+}
+#down-arrow{
+  margin-left: 50px;
 }
 button:hover{
   border: 5px solid white;
@@ -68,6 +72,7 @@ button:hover{
   width: 30%;
   /*float: left;*/
 }
+
 .text{
   font-size: 20px;
 }
@@ -114,11 +119,14 @@ p {
     position: absolute;
     top: 40%;
   }
+  #down-arrow{
+    width: 5%;
+  }
   #index-banner .section {
     top: 10%;
   }
   #kevPic{
-    width: 30%;
+    width: 20%;
   }
   .kevPortfolioText{
     font-size: 25px;
@@ -142,6 +150,9 @@ p {
   .kevPortfolioText{
     font-size: 25px;
     margin-top: -10px;
+  }
+  #kevPic{
+    width: 30%;
   }
   .interestsText{
     margin-top: -50px;
