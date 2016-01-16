@@ -122,6 +122,9 @@ p {
   #down-arrow{
     width: 5%;
   }
+  #hobbies{
+    margin-top: -80px;
+  }
   #index-banner .section {
     top: 10%;
   }
@@ -134,7 +137,8 @@ p {
   }
   #aboutMeText{
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    /*font-size: 10px;*/
   }
   #samples{
     font-size: 35px;
