@@ -5,6 +5,15 @@
  *
  * Made By MaterializeCSS.com
  */
+
+ body{
+  /*font-family: 'Fjalla One', sans-serif;*/
+  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+  font-family: 'Acme', sans-serif;
+ }
+ .center-text{
+  text-shadow: 2px 3px black;
+ }
 #aboutMeText{
   /*float: right;*/
   margin-bottom: 50px;
@@ -16,7 +25,7 @@
 }
 #project1Pic, .highlightText, #project4Pic, #artPic, #animationPic, #travelPic{
   max-width: 100%;
-  border: 5px solid rgba(0,255,255,0.1);
+  border: 5px solid rgba(0,255,255,0.2);
   border-radius: 20px;
   padding: 10px;
 }
@@ -44,7 +53,7 @@ button:hover{
   max-width: 100%;
   border: 5px solid rgba(0,255,255,0.1);
   border-radius: 20px;
-  padding: 2px;
+  padding: 7px;
   color: blue;
 }
 #project4Pic{
