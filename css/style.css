@@ -5,65 +5,8 @@
  *
  * Made By MaterializeCSS.com
  */
-
- body{
-  /*font-family: 'Fjalla One', sans-serif;*/
-  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
-  font-family: 'Acme', Tahoma, sans-serif;
- }
- .center-text{
-  text-shadow: 2px 3px black;
- }
-#aboutMeText{
-  /*float: right;*/
+ #aboutMeText{
   margin-bottom: 50px;
-}
-#GaLogo{
-  border: 5px solid rgba(0,255,255,0.1);
-  border-radius: 20px;
-  max-width: 100%;
-}
-#project1Pic, .highlightText, #project4Pic, #artPic, #animationPic, #travelPic, #bannerPic{
-  max-width: 100%;
-  border: 5px solid rgba(0,255,255,0.2);
-  border-radius: 20px;
-  padding: 10px;
-}
-#artPic, #animationPic{
-  margin-bottom: 13px;
-}
-button{
-  /*float: left;*/
-  display: inline;
-  margin-top: 20px;
-  background-color: lightblue;
-  border-radius: 20px;
-  border: 5px solid rgba(255,255,255, 0.2);
-}
-#down-arrow{
-  margin-left: 50px;
-}
-button:hover{
-  border: 5px solid white;
-}
-#resumeDoc{
-  /*margin-left: 20px;*/
-}
-.link{
-  max-width: 100%;
-  border: 5px solid rgba(0,255,255,0.1);
-  border-radius: 20px;
-  padding: 7px;
-  color: blue;
-}
-#project4Pic{
-  margin-top: 40px;
-}
-#bannerPic{
-
-}
-#travelPic{
-  margin-top: 35px;
 }
 #AmLogo{
   margin-top: 10px;
@@ -74,44 +17,88 @@ button:hover{
   border-radius: 20px;
   max-width: 100%;
 }
-#GaLogo:hover, #AmLogo:hover, #project1Pic:hover, .highlightText:hover, #project4Pic:hover, #artPic:hover, #animationPic:hover, #bannerPic:hover, #travelPic:hover, .link:hover{
-  border: 5px solid rgba(0,255,255,1);
+#artPic, #animationPic{
+  margin-bottom: 13px;
+}
+#bannerPic{
+}
+body{
+  /*font-family: 'Fjalla One', sans-serif;*/
+  /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+  font-family: 'Acme', Tahoma, sans-serif;
+}
+button{
+  display: inline;
+  margin-top: 20px;
+  background-color: lightblue;
   border-radius: 20px;
+  border: 5px solid rgba(255,255,255, 0.2);
 }
-#kevPic{
+.button-collapse {
+  color: #26a69a;
+}
+button:hover{
   border: 5px solid white;
-  border-radius: 50%;
-  width: 30%;
-  /*float: left;*/
 }
-
-.text{
-  font-size: 20px;
+.center-text{
+  text-shadow: 2px 3px black;
+}
+#down-arrow{
+  margin-left: 50px;
 }
 #email, .white{
   color: white;
   text-decoration: none !important;
 }
-/*.strokeText{
-  -webkit-text-stroke: 1px black;
-  font-size: 40px;
-}*/
+footer.page-footer {
+  margin: 0;
+}
+#GaLogo{
+  border: 5px solid rgba(0,255,255,0.1);
+  border-radius: 20px;
+  max-width: 100%;
+}
+#GaLogo:hover, #AmLogo:hover, #project1Pic:hover, .highlightText:hover, #project4Pic:hover, #artPic:hover, #animationPic:hover, #bannerPic:hover, #travelPic:hover, .link:hover{
+  border: 5px solid rgba(0,255,255,1);
+  border-radius: 20px;
+}
 h5{
   margin-bottom: 15px;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+#kevPic{
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 30%;
+}
+.link{
+  max-width: 100%;
+  border: 5px solid rgba(0,255,255,0.1);
+  border-radius: 20px;
+  padding: 7px;
+  color: blue;
 }
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
-
+#project1Pic, .highlightText, #project4Pic, #artPic, #animationPic, #travelPic, #bannerPic{
+  max-width: 100%;
+  border: 5px solid rgba(0,255,255,0.2);
+  border-radius: 20px;
+  padding: 10px;
+}
+#project4Pic{
+  margin-top: 40px;
+}
 p {
   line-height: 2rem;
 }
-
-.button-collapse {
-  color: #26a69a;
-}
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -122,17 +109,25 @@ p {
   float: left;
 }
 .parallax-container .section {
-    width: 100%;
+  width: 100%;
+}
+#travelPic{
+  margin-top: 35px;
+}
+.text{
+  font-size: 20px;
 }
 #wordWrap{
   word-wrap: break-word;
-  /*line-height: 20px;*/
 }
 
+
+
+
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
+  #aboutMeText{
+    font-size: 20px;
+    margin-bottom: 50px;
   }
   #down-arrow{
     width: 5%;
@@ -150,21 +145,21 @@ p {
     font-size: 25px;
     margin-top: -30px;
   }
-  #aboutMeText{
-    font-size: 20px;
-    margin-bottom: 50px;
-    /*font-size: 10px;*/
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
   }
   #samples{
     font-size: 35px;
   }
-
-
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+  .interestsText{
+    margin-top: -50px;
   }
   .kevPortfolioText{
     font-size: 25px;
@@ -173,22 +168,9 @@ p {
   #kevPic{
     width: 30%;
   }
-  .interestsText{
-    margin-top: -50px;
-  }
   #samples{
     font-size: 30px;
   }
-
 }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
 
-footer.page-footer {
-  margin: 0;
-}
