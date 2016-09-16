@@ -87,6 +87,14 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
+.navey-nav{
+  position: fixed;
+  z-index: 200;
+  border-bottom: 2px solid black;
+}
+.navey-nav-wrapper{
+  margin-top: 40px;
+}
 #project1Pic, .highlightText, #project4Pic, #artPic, #animationPic, #travelPic, #bannerPic{
   max-width: 100%;
   border: 5px solid rgba(0,255,255,0.2);
