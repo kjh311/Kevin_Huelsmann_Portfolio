@@ -88,8 +88,9 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
-.navey-nav{
+#navey-nav{
   position: fixed;
+
   z-index: 200;
   border-bottom: 2px solid black;
 }
@@ -154,8 +155,11 @@ p {
     font-size: 25px;
     margin-top: -30px;
   }
+  #navey-nav{
+    position: inherit;
+  }
 .navey-nav-wrapper{
-  margin-top: -70px !important;
+  margin-top: -130px !important;
 }
   .parallax-container .section {
     position: absolute;
@@ -183,9 +187,9 @@ p {
   #kevPic{
     width: 30%;
   }
-  .navey-nav-wrapper{
+  /*.navey-nav-wrapper{
   margin-top: -100px !important;
-}
+}*/
   #samples{
     font-size: 30px;
   }
