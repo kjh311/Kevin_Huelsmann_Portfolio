@@ -5,6 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
+
  #aboutMeText{
   margin-bottom: 50px;
   font-size: 2em;
@@ -31,7 +32,8 @@ body{
 button{
   display: inline;
   margin-top: 20px;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
+  /*height: 100px;*/
   border-radius: 20px;
   border: 5px solid rgba(255,255,255, 0.2);
 }
@@ -39,7 +41,10 @@ button{
   color: #26a69a;
 }
 button:hover{
-  border: 5px solid white;
+  /*border: 5px solid white;*/
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(0,0,0, 0.3);
+  /*width: 110%;*/
 }
 .center-text{
   text-shadow: 2px 3px black;
@@ -68,6 +73,7 @@ h5{
 }
 .icon-block {
   padding: 0 15px;
+
 }
 .icon-block .material-icons {
   font-size: inherit;
@@ -82,7 +88,7 @@ h5{
   border: 5px solid rgba(0,255,255,0.1);
   border-radius: 20px;
   padding: 10px;
-  color: red;
+  color: #00BFFF;
   text-shadow: 1px 1px black;
 }
 nav ul a,
@@ -120,6 +126,9 @@ p {
 }
 .parallax-container .section {
   width: 100%;
+}
+#resume-pdf{
+  padding: 10px;
 }
 #travelPic{
   margin-top: 35px;
