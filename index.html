@@ -18,8 +18,11 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
-<script src="js/scroll.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<script src="node_modules/waypoints/src/debug.js"></script> -->
+<!-- <script src="node_modules/waypoints/src/waypoints.js"></script> -->
+<!-- <script src="js/scroll.js"></script> -->
+<!-- <script src="js/new.js"></script> -->
 
 <!-- Smooth Page Scroll: -->
 <script>
@@ -62,11 +65,13 @@ $(document).ready(function(){
         <li><A HREF="#contact">Contact</A></li>
       </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><A HREF="#projects">Projects</A></li>
-        <li><A HREF="#interests">Additional Interests</A></li>
-        <li><A HREF="#education">Education</A></li>
-        <li><A HREF="#contact">Contact</A></li>
+      <ul id="nav-mobile" class="side-nav center-align">
+        <img class="responsive-img mobile-pic z-depth-3 " src="Kev.png" alt="">
+        <hr>
+        <li class="left-align"><A HREF="#projects">Projects</A></li>
+        <li class="left-align"><A HREF="#interests">Additional Interests</A></li>
+        <li class="left-align"><A HREF="#education">Education</A></li>
+        <li class="left-align"><A HREF="#contact">Contact</A></li>
       </ul>
       <a href="#top" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -116,8 +121,9 @@ $(document).ready(function(){
 
           <div class="col s12 m6">
             <div class="icon-block">
-              <a href="http://homefrontmap.com" target="_blank"><h4 class="center highlightText">HOMEFRONT THE REVOLUTION</h4></a>
-              <a href="http://homefrontmap.com" target="_blank"><img class="" id="project1Pic" src="homefrontmap.png"></a>
+              <div class="highlightText z-depth-1">
+              <a  href="http://homefrontmap.com" target="_blank"><h4 class="center ">HOMEFRONT THE REVOLUTION</h4><img  id="project1Pic" src="homefrontmap.png"></a>
+              </div>
               <h5 class="light center project">Front End Developer for <a href="http://eyestormproductions.com/" target='blank'>Eyestorm Productions</a>. Lots of responsive design with HTML and CSS. Some Logic</h5>
             </div>
           </div>
@@ -125,11 +131,12 @@ $(document).ready(function(){
           <!-- <div class="row"> -->
             <div class="col s12 m6">
               <div class="icon-block">
-                    <a href="http://kjh311.github.io/bootstrap-example/" target="_blank"><h4 class="center highlightText">Responsive Bootstrap Demo</h4></a>
+                <div class="highlightText z-depth-1">
+                    <a href="http://kjh311.github.io/bootstrap-example/" target="_blank"><h4 class="center">Responsive Bootstrap Demo</h4></a>
                     <a href="http://kjh311.github.io/bootstrap-example/" target="_blank"><img id="bannerPic" src="bootstrap-example.png"></a>
                     <h5 class="light center project">Responsive Landing Page using Bootstrap.  Content Routed through AngularJS. Styled with SASS through a Gulpfile. Custom dropdown hover and carousels.</h5>
                   </div>
-
+                  </div>
             </div>
           </div>
 
@@ -138,9 +145,11 @@ $(document).ready(function(){
             <div class="row">
               <div class="col s12 m6">
                 <div class="icon-block">
-                <a href="https://craft-beerzilla.herokuapp.com/" target="_blank"><h4 class="center highlightText">Craft Beer-Zilla</h4></a>
+                <div class="highlightText z-depth-1">
+                <a href="https://craft-beerzilla.herokuapp.com/" target="_blank"><h4 class="center ">Craft Beer-Zilla</h4></a>
                 <a href="https://craft-beerzilla.herokuapp.com/" target="_blank"><img id="project4Pic" src="Project4.jpg"></a>
                 <h5 class="light center project">This project was designed as a craft brewery and beer reviewer.  It uses the MEAN stack and grabs the data through a third party API.</h5>
+              </div>
               </div>
 
               </div>
@@ -148,9 +157,11 @@ $(document).ready(function(){
               <!-- <div class="row"> -->
                 <div class="col s12 m6">
                    <div class="icon-block">
-                  <a href="http://kjh311.github.io/Game_of_Thrones_Concentration_Game/" target="_blank"><h4 class="center highlightText">Game of Thrones Concentration Game</h4></a>
+                    <div class="highlightText z-depth-1">
+                  <a href="http://kjh311.github.io/Game_of_Thrones_Concentration_Game/" target="_blank"><h4 class="center">Game of Thrones Concentration Game</h4></a>
                   <a href="http://kjh311.github.io/Game_of_Thrones_Concentration_Game/" target="_blank"><img id="project1Pic" src="Project1.jpg"></a>
                   <h5 class="light center project">This was a study in game logic with a heavy emphasis on jQuery and CSS.</h5>
+                </div>
                 </div>
                 </div>
 
@@ -191,8 +202,10 @@ $(document).ready(function(){
           <div class="row center">
             <div class="col s12 m4">
               <div class="icon-block">
-                <a href="http://kevinhuelsmannportfolio.weebly.com/artwork.html" target="_blank"><h4 class="center highlightText">Digital Art Portfolio</h4></a>
+                <div class="highlightText z-depth-1">
+                <a href="http://kevinhuelsmannportfolio.weebly.com/artwork.html" target="_blank"><h4 class="center">Digital Art Portfolio</h4></a>
                 <a href="http://kevinhuelsmannportfolio.weebly.com/artwork.html" target="_blank"><img id="artPic" src="artPic.jpg"></a>
+              </div>
                 <h5 class="light center">My portfolio of some digital art I've done in Photoshop.</h5>
               </div>
             </div>
@@ -200,8 +213,10 @@ $(document).ready(function(){
             <div class="row center">
               <div class="col s12 m4">
                 <div class="icon-block">
-                  <a href="http://kevinhuelsmannportfolio.weebly.com/" target="_blank"><h4 class="center highlightText">Animation Portfolio</h4></a>
+                  <div class="highlightText z-depth-1">
+                  <a href="http://kevinhuelsmannportfolio.weebly.com/" target="_blank"><h4 class="center">Animation Portfolio</h4></a>
                   <a href="http://kevinhuelsmannportfolio.weebly.com/" target="_blank"><img id="animationPic" src="animationPic.jpg"></a>
+                   </div>
                   <h5 class="light center">My portfolio of animation I've done for Animation Mentor.</h5>
                 </div>
               </div>
@@ -209,8 +224,10 @@ $(document).ready(function(){
               <div class="row">
                 <div class="col s12 m4">
                   <div class="icon-block">
-                    <a href="https://www.travelblog.org/Bloggers/Kevin-and-Amarryn/" target="_blank"><h4 class="center highlightText">Travel Blog</h4></a>
+                    <div class="highlightText z-depth-1">
+                    <a href="https://www.travelblog.org/Bloggers/Kevin-and-Amarryn/" target="_blank"><h4 class="center">Travel Blog</h4></a>
                     <a href="https://www.travelblog.org/Bloggers/Kevin-and-Amarryn/" target="_blank"><img id="travelPic" src="travelPic.jpg"></a>
+                     </div>
                     <h5 class="light center">A travel blog I've written about our adventures through 30+ countries.</h5>
                   </div>
                 </div>
@@ -247,10 +264,11 @@ $(document).ready(function(){
         <div class="row">
           <div class="col s12 m6">
             <div class="icon-block">
+              <div class="highlightText z-depth-1">
               <h2 class="center brown-text"><!-- <i class="material-icons">flash_on</i> --></h2>
               <a href="https://generalassemb.ly" target="_blank"><img id="GaLogo" src="GA.png"></a>
               <!-- <h3 class="center">General Assembly</h3> -->
-
+</div>
               <h5 class="light center">As a graduate of General Assembly's Web Development Immersive Bootcamp, I have devoted over 600 hours to understanding web development.
                 Through General Assembly I have gained a number of skills:</h5>
                 <ul>
@@ -265,9 +283,11 @@ $(document).ready(function(){
 
             <div class="col s12 m6">
               <div class="icon-block">
+                <div class="highlightText z-depth-1">
                 <h2 class="center brown-text"><!-- <i class="material-icons">group</i> --></h2>
                 <!-- <h3 class="center"></h3> -->
                 <a href="http://www.animationmentor.com/" target="_blank"><img id="AmLogo" src="AM_Logo.jpg"></a>
+              </div>
                 <h5 class="light center">As a graduate of Animation Mentor's Digital Character Animation Course,
                   I have developed a greater sense of creativity, visual design, and user experience.</h5>
                 </div>
@@ -305,11 +325,17 @@ $(document).ready(function(){
           <!-- <div class="card-panel teal"> -->
            <h5 class="white-text">Phone: (505) 999-8141</h5>
            <h5 class="white-text">Email:</h5>
-           <h5 class="white-text" id="email"><a class="link text emailText" href="mailto:kjh311@gmail.com">KJH311@GMAIL.COM</a></h5>
+           <h5 class="white-text contact-wrap" id="email">
+            <a class="link text emailText" href="mailto:kjh311@gmail.com">KJH311@GMAIL.COM</a>
+          </h5>
            <h5 class="white-text">Github:</h5>
-           <h5 class="white-text"> <a class="link text" href="https://github.com/kjh311" target="_blank" title="">https://github.com/kjh311</a></h5>
+           <h5 class="white-text contact-wrap">
+            <a class="link text" href="https://github.com/kjh311" target="_blank" title="">https://github.com/kjh311</a>
+          </h5>
            <h5 class="white-text">LinkedIn:</h5>
-           <h5 class="white-text" > <a id="wordWrap" class="link text" href="https://www.linkedin.com/in/kevinhuelsmann" target="_blank"title="">https://www.linkedin.com/in/kevinhuelsmann</a></h5>
+           <h5 class="white-text contact-wrap" >
+            <a id="wordWrap" class="link text" href="https://www.linkedin.com/in/kevinhuelsmann" target="_blank"title="">https://www.linkedin.com/in/kevinhuelsmann</a>
+          </h5>
 
 
 
@@ -336,6 +362,8 @@ $(document).ready(function(){
 
 
 <!--  Scripts-->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
 <script src="./assets/jquery-1.11.3.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
