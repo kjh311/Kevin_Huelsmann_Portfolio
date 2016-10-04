@@ -7,6 +7,15 @@
  */
 
 
+.highlightText, .link, .contact-wrap{
+  transition: border 0.5s, box-shadow 0.5s;
+  -webkit-transition: border 0.5s, box-shadow 0.5s;
+  -ms-transition: border 0.5s, box-shadow 0.5s;
+  -moz-transition: border 0.5s, box-shadow 0.5s;
+  -o-transition: border 0.5s, box-shadow 0.5s;
+}
+
+
  #aboutMeText{
   margin-bottom: 50px;
   font-size: 2em;
