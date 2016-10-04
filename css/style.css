@@ -15,6 +15,17 @@
   -o-transition: border 0.5s, box-shadow 0.5s;
 }
 
+i{
+  /*padding: 5px;*/
+  /*box-shadow: 2px 2px 2px black;*/
+  border-radius: 50%;
+  color: white;
+}
+
+.fa-file-pdf-o, .fa-file-word-o{
+  color: black;
+}
+
 
  #aboutMeText{
   margin-bottom: 50px;
@@ -75,7 +86,7 @@ footer.page-footer {
   max-width: 100%;
 }
 .highlightText:hover, .link:hover{
-  border: 5px solid rgba(0,255,255,1);
+  border: 5px solid rgba(0  ,255,255,1);
   border-radius: 20px;
 }
 h5{
