@@ -8,7 +8,7 @@
     // $('.collapsible').collapsible();
 
 
-
+alert("asdf");
 
 
   }); // end of document ready

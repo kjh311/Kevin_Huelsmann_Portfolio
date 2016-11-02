@@ -120,6 +120,7 @@ h5{
 }
 .material-icons{
   color: black;
+  cursor: pointer;
 }
 .mobile-pic{
   /*border: 2px solid black;*/
