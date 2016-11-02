@@ -110,10 +110,6 @@ h5{
   border-radius: 50%;
   width: 30%;
 }
-.move-left{
-  left: -250px !important;
-  animation-duration: 4s;
-}
 .link{
   max-width: 100%;
   border: 5px solid rgba(0,255,255,0.1);
@@ -189,9 +185,6 @@ p {
 }
 #wordWrap{
   word-wrap: break-word;
-}
-.z{
-  /*visibility: hidden;*/
 }
 
 

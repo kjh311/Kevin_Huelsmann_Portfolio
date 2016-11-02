@@ -12,9 +12,9 @@
 
 
     $("#nav-mobile").on("click", function() {
-    $("#sidenav-overlay").trigger("click");
-    return false;
-});
+     $("#sidenav-overlay").trigger("click");
+     return false;
+    });
 
 
 
