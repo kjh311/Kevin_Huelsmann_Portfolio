@@ -186,6 +186,9 @@ p {
 #wordWrap{
   word-wrap: break-word;
 }
+.z{
+  opacity: 0;
+}
 
 
 
@@ -213,6 +216,7 @@ p {
   }
   #navey-nav{
     position: inherit;
+    /*top: 0 !important;*/
   }
 .navey-nav-wrapper{
   margin-top: -130px !important;
