@@ -190,6 +190,9 @@ p {
 #wordWrap{
   word-wrap: break-word;
 }
+.z{
+  /*visibility: hidden;*/
+}
 
 
 

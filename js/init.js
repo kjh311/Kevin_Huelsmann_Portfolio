@@ -15,7 +15,8 @@
       $("#nav-mobile").addClass("animated slideOutLeft");
       $('#sidenav-overlay').fadeTo( "slow" , 0, function() {
     // Animation complete.
-  });
+    });
+      $('#sidenav-overlay').addClass('z');
       function explode(){
         $("#nav-mobile").removeClass("animated slideOutLeft");
         $("#nav-mobile").css({ left: -250});
