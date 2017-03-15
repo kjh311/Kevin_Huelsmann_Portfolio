@@ -6,7 +6,20 @@
  * Made By MaterializeCSS.com
  */
 
-
+.black{
+  color: black;
+}
+.gallery{
+  margin-top: 70px;
+}
+.gallery-pic{
+  max-height: 100% !important;
+  max-width: 100% !important;
+  border: 2px solid black;
+}
+.gallery-pic:hover{
+  border: 2px solid red;
+}
 .highlightText, .link, .contact-wrap{
   transition: border 0.5s, box-shadow 0.5s;
   -webkit-transition: border 0.5s, box-shadow 0.5s;
@@ -24,6 +37,9 @@ i{
 
 .fa-file-pdf-o, .fa-file-word-o{
   color: black;
+}
+.thumbnail{
+  max-width: 300px;
 }
 
 
