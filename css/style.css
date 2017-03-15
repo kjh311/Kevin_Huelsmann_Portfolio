@@ -6,6 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
+iframe{
+  border: 2px solid black;
+}
+iframe:hover{
+  border: 2px solid red;
+}
 .black{
   color: black;
 }
@@ -72,7 +78,7 @@ body{
   /*font-family: 'Fjalla One', sans-serif;*/
   /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
   font-family: 'Acme', Tahoma, sans-serif;
-  background-color: #F8F8FF;
+  background-color: #E8E8E8;
 }
 button{
   display: inline;
@@ -157,9 +163,13 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
+.semi-white{
+  background-color: rgba(255,255,255,0.9);
+}
 #navey-nav{
   position: fixed;
   z-index: 200;
+  
   border-bottom: 2px solid black;
 }
 #navey-nav2{
