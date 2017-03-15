@@ -61,10 +61,18 @@ i{
 }
 #bannerPic{
 }
+#logo-container{
+  cursor: pointer;
+}
+.fa-arrow-left{
+  cursor: pointer;
+  color: black;
+}
 body{
   /*font-family: 'Fjalla One', sans-serif;*/
   /*font-family: 'Yanone Kaffeesatz', sans-serif;*/
   font-family: 'Acme', Tahoma, sans-serif;
+  background-color: #F8F8FF;
 }
 button{
   display: inline;
@@ -154,6 +162,11 @@ nav .brand-logo {
   z-index: 200;
   border-bottom: 2px solid black;
 }
+#navey-nav2{
+  position: fixed;
+  z-index: 200;
+  border-bottom: 2px solid black;
+}
 .navey-nav-wrapper{
   margin-top: 40px;
 }
@@ -235,7 +248,7 @@ p {
     /*top: 0 !important;*/
   }
 .navey-nav-wrapper{
-  margin-top: -130px !important;
+  /*margin-top: -130px !important;*/
 }
   .parallax-container .section {
     position: absolute;
