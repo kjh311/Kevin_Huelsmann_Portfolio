@@ -189,7 +189,6 @@ nav .brand-logo {
 #navey-nav{
   position: fixed;
   z-index: 200;
-  
   border-bottom: 2px solid black;
 }
 #navey-nav2{
@@ -236,6 +235,10 @@ p {
 #resume-pdf{
   padding: 10px;
 }
+#sidenav-overlay{
+    z-index: 999 !important;
+    position: inherit;
+  }
 #travelPic{
   margin-top: 35px;
 }
@@ -274,12 +277,15 @@ p {
     margin-top: -30px;
   }
   #navey-nav{
-    position: inherit;
+    position: fixed;
     /*top: 0 !important;*/
   }
-.navey-nav-wrapper{
-  margin-top: -130px !important;
-}
+  #sidenav-overlay{
+    z-index: 999 !important;
+  }
+  .navey-nav-wrapper{
+    margin-top: -100px !important;
+  }
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -334,6 +340,9 @@ p {
   }
   #navbar a{
     padding: 12px 5px;
+  }
+  #sidenav-overlay{
+    z-index: 999 !important;
   }
 }
 
