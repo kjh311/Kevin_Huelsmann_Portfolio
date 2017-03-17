@@ -22,9 +22,17 @@ iframe:hover{
   max-height: 100% !important;
   max-width: 100% !important;
   border: 2px solid black;
+  transform: scale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
 }
 .gallery-pic:hover{
   border: 2px solid red;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
 }
 .highlightText, .link, .contact-wrap{
   transition: border 0.5s, box-shadow 0.5s;
@@ -89,10 +97,18 @@ button{
 .button{
   background-color: #33ccff;
   border: 5px solid rgba(0,0,0,0.2);
+  transform: scale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
 }
 .button:hover{
   background-color: #0099ff;
   border: 5px solid rgba(0,0,0,0.3);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
 }
 .button-collapse {
   color: #26a69a;
@@ -197,7 +213,7 @@ nav .brand-logo {
   border-bottom: 2px solid black;
 }
 .navey-nav-wrapper{
-  margin-top: 40px;
+  margin-top: 80px;
 }
 #project1Pic, .highlightText, #project4Pic, #artPic, #animationPic, #travelPic, #bannerPic{
   max-width: 100%;
@@ -207,10 +223,18 @@ nav .brand-logo {
 }
  .highlightText{
   border: 5px solid rgba(0,255,255,0.2);
+  transform: scale(1);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
 }
  .highlightText:hover{
   box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
   /*width: 500px !important;*/
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
  }
 #project4Pic{
   margin-top: 40px;
@@ -268,6 +292,18 @@ p {
   }
   #index-banner .section {
     top: 10%;
+  }
+  .gallery-pic, .button, .hightlightText{
+    transform: scale(1);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+  }
+  .gallery-pic:hover, .button:hover, .hightlightText:hover{
+    transform: scale(1);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
   }
   #kevPic{
     width: 20%;
