@@ -181,7 +181,10 @@ h5{
   right: 0;
   animation-delay: 1s;
 }
-.header{
+/*.header{
+  margin-top: 50px;
+}*/
+.header1{
   margin-top: 350px;
 }
 @keyframes ring-grow {
@@ -385,8 +388,11 @@ p {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
   }
-  .header{
+  .header1{
     margin-top: 170px;
+  }
+  .header2{
+    margin-top: -10px !important;
   }
   #kevPic{
     width: 150px;
@@ -448,8 +454,14 @@ p {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
   }
-  .header{
+  .header1{
     margin-top: 90px;
+  }
+  .header2{
+    margin-top: -60px !important;
+  }
+  .header3, .header4{
+    margin-top: 0px !important;
   }
   .button:hover{
     background-color: #33ccff;
