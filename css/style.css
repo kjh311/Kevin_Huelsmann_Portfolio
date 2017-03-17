@@ -103,7 +103,8 @@ button{
   -moz-transition: all 0.5s ease;
 }
 .button:hover{
-  background-color: #0099ff;
+  /*background-color: #0099ff;*/
+  background-color: #33ccff;
   border: 5px solid rgba(0,0,0,0.3);
   transform: scale(1.1);
   transition: all 0.5s ease;
@@ -347,6 +348,23 @@ p {
   .interestsText{
     margin-top: -50px;
   }
+  .gallery-pic, .button, .highlightText{
+    transform: scale(1);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+  }
+  .gallery-pic:hover, .button:hover, .highlightText:hover{
+    transform: scale(1);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+  }
+  .button:hover{
+    background-color: #33ccff;
+    border: 5px solid rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px rgba(0,0,0, 0.0);  
+  }
   .kevPortfolioText{
     font-size: 25px;
     margin-top: -10px;
@@ -356,7 +374,6 @@ p {
   }
   .link, .link:active, .link:hover{
     border: 2px solid rgba(0,0,0,0.0);
-
   }
   .contact-wrap{
     border: 5px solid rgba(0,255,255,0.1);
