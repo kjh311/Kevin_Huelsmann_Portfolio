@@ -1,6 +1,15 @@
 (function($){
   $(function(){
 
+setTimeout(function(){ 
+  $('#kevPic').removeClass('hidden'); 
+}, 1200);
+
+
+setTimeout(function(){ 
+  $('.black-ring').fadeTo(3000, 0.1);; 
+}, 1050);
+
 // var items = $("#gallery li");
 // var itemsByTags = [];
 // items.each(function(i){
