@@ -1,14 +1,47 @@
 (function($){
   $(function(){
 
-setTimeout(function(){ 
-  $('#kevPic').removeClass('hidden'); 
-}, 1200);
+// setTimeout(function(){ 
+//   $('#kevPic').removeClass('hidden'); 
+// }, 1200);
 
 
-setTimeout(function(){ 
-  $('.black-ring').fadeTo(3000, 0.1);; 
-}, 1050);
+// setTimeout(function(){ 
+//   $('.black-ring').fadeTo(3000, 0.05);; 
+// }, 1050);
+
+
+var kevPortfolioText = document.getElementById("kevPortfolioText");
+TweenLite.to(kevPortfolioText, 1, {opacity:1, left:20, ease:Power2.easeOut, delay:0.8});
+
+var aboutMeText = document.getElementById("aboutMeText");
+TweenLite.to(aboutMeText, 1, {opacity:1, ease:Power2.easeOut, delay:2});
+
+
+var link1 = document.getElementById("link1");
+TweenLite.to(link1, 1, {opacity:1, ease:Power2.easeOut, delay:0.4});
+
+var link2 = document.getElementById("link2");
+TweenLite.to(link2, 1, {opacity:1, ease:Power2.easeOut, delay:0.5});
+
+var link3 = document.getElementById("link3");
+TweenLite.to(link3, 1, {opacity:1, ease:Power2.easeOut, delay:0.6});
+
+var link4 = document.getElementById("link4");
+TweenLite.to(link4, 1, {opacity:1, ease:Power2.easeOut, delay:0.7});
+
+var kevPic = document.getElementById("kevPic");
+TweenLite.to(kevPic, 1, {opacity:1, ease:Power2.easeOut, delay:1.5});
+
+var background1 = document.getElementById("background1");
+TweenLite.to(background1, 1, {opacity:1, ease:Power2.easeOut});
+
+var section1 = document.getElementById("section1");
+TweenLite.to(section1, 1, {opacity:1, ease:Power2.easeOut, delay:2.3});
+
+
+
+
 
 // var items = $("#gallery li");
 // var itemsByTags = [];

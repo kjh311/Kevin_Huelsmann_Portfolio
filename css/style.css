@@ -78,6 +78,10 @@ i{
 #logo-container{
   cursor: pointer;
 }
+#link1, #link2, #link3, #link4{
+  /*position: absolute;*/
+  opacity: 0;
+}
 .fa-arrow-left{
   cursor: pointer;
   color: black;
@@ -152,7 +156,13 @@ h5{
 .icon-block .material-icons {
   font-size: inherit;
 }
-@keyframes protrait {
+#background1, #section1 {
+  opacity: 0;
+}
+.cherry{
+  font-family: 'Cherry Cream Soda', cursive;
+}
+/*@keyframes potrait {
   0% {
     transform:scale(0,0) rotateY(180deg);
     opacity: 0;
@@ -161,31 +171,42 @@ h5{
     transform:scale(1,1) rotateY(0deg);
     opacity: 1;
   }
-}
+}*/
 #kevPic{
   border: 5px solid white;
   border-radius: 50%;
-  width: 300px;
+  width: 250px;
   position: absolute;
-  animation-name: protrait;
-  -webkit-animation-name: protrait;
-  -moz-animation-name: protrait;
+/*  animation-name: potrait;
+  -webkit-animation-name: potrait;
+  -moz-animation-name: potrait;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
-  animation-duration: 1.5s;
+  animation-duration: 1.5s;*/
   z-index: 11;
-  position: absolute;
+  margin-top: 170px;
+  /*position: absolute;*/
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
-  animation-delay: 1s;
+  opacity: 0;
+  /*left: -50px;*/
+  /*animation-delay: 1s;*/
+  /*margin-bottom: 200px;*/
 }
 /*.header{
   margin-top: 50px;
 }*/
+#aboutMeText{
+  /*position: absolute;*/
+  /*margin-top: 450px;*/
+}
 .header1{
-  margin-top: 350px;
+  margin-top: 450px;
+  /*left: -200px;*/
+  /*position: absolute;*/
+  opacity: 0;
 }
 @keyframes ring-grow {
   0% {
@@ -199,7 +220,7 @@ h5{
   animation-name: ring-grow;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-duration: 6s;
+  animation-duration: 10s;
   z-index: 0;
   position: absolute;
   margin: 0px;
@@ -213,26 +234,34 @@ h5{
   opacity: 0;
   /*margin-left: -300px;*/
 }
-.black-ring1{
-  animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-  -moz-animation-delay: 1s;
-}
-.black-ring3{
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-}
-.black-ring3{
+
+.black-ring2{
   animation-delay: 3s;
   -webkit-animation-delay: 3s;
   -moz-animation-delay: 3s;
 }
-.black-ring4{
-  animation-delay: 4s;
-  -webkit-animation-delay: 4s;
-  -moz-animation-delay: 4s;
+.black-ring3{
+  animation-delay: 5s;
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
 }
+.black-ring4{
+  animation-delay: 8s;
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+}
+#kevPortfolioText{
+    /*opacity: 0;*/
+    /*position: absolute;*/
+    /*display: hidden;*/
+
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: -40px;
+  right: 0;
+  opacity: 0;
+  }
 .link{
   max-width: 100%;
   border: 5px solid rgba(0,255,255,0.1);
@@ -389,21 +418,24 @@ p {
     -moz-transition: all 0.5s ease;
   }
   .header1{
-    margin-top: 170px;
+    margin-top: 120px;
   }
   .header2{
     margin-top: -10px !important;
   }
   #kevPic{
     width: 150px;
+    margin-top: -50px;
   }
   .black-ring{
     width: 250px;
     margin-top:-50px;
   }
+
   .kevPortfolioText{
     font-size: 25px;
     margin-top: -30px;
+    
   }
   #navey-nav{
     position: fixed;
@@ -455,7 +487,7 @@ p {
     -moz-transition: all 0.5s ease;
   }
   .header1{
-    margin-top: 90px;
+    margin-top: 70px;
   }
   .header2{
     margin-top: -60px !important;
@@ -469,12 +501,12 @@ p {
     box-shadow: 10px 10px 10px rgba(0,0,0, 0.0);  
   }
   .kevPortfolioText{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: -10px;
   }
   #kevPic{
     width: 100px;
-    margin-top: -20px;
+    margin-top: -50px;
   }
   .black-ring{
     width: 180px;

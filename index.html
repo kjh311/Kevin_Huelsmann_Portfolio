@@ -9,6 +9,7 @@
   <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 
   <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Cherry+Cream+Soda|Russo+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -63,12 +64,12 @@ $(document).ready(function(){
 <div id="nav-wrapper2">
   <nav class="white" id="navey-nav" role="navigation">
     <div class="nav-wrapper  container">
-      <a id="logo-container" href="#top" class="brand-logo">Kevin Huelsmann</a>
+      <a id="logo-container" href="#top" class="cherry brand-logo"><span id="kev-text">Kevin Huelsmann</span></a>
       <ul class="right hide-on-med-and-down">
-        <li><A HREF="#projects">Projects</A></li>
-        <li><A HREF="#interests">Additional Interests</A></li>
-        <li><A HREF="#education">Education</A></li>
-        <li><A HREF="#contact">Contact</A></li>
+        <li><A id="link1"  HREF="#projects">Projects</A></li>
+        <li><A id="link2" HREF="#interests">Additional Interests</A></li>
+        <li><A id="link3" HREF="#education">Education</A></li>
+        <li><A id="link4" HREF="#contact">Contact</A></li>
       </ul>
 
 
@@ -76,10 +77,10 @@ $(document).ready(function(){
       <ul id="nav-mobile" class="side-nav center-align">
       <!--   <img class="responsive-img mobile-pic z-depth-3 " src="Kev.png" alt="">
         <hr> -->
-        <li class="left-align"><A HREF="#projects">Projects</A></li>
-        <li class="left-align"><A HREF="#interests">Additional Interests</A></li>
-        <li class="left-align"><A HREF="#education">Education</A></li>
-        <li class="left-align"><A HREF="#contact">Contact</A></li>
+        <li class="left-align cherry "><A HREF="#projects">Projects</A></li>
+        <li class="left-align cherry "><A HREF="#interests">Additional Interests</A></li>
+        <li class="left-align cherry "><A HREF="#education">Education</A></li>
+        <li class="left-align cherry "><A HREF="#contact">Contact</A></li>
       </ul>
       <a data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -98,14 +99,21 @@ $(document).ready(function(){
 
       </a>
         <br><br>
-        <h1 class="header navey-nav-wrapper center text-lighten-2 kevPortfolioText center-text">Kevin Huelsmann Portfolio</h1>
+        <h1 id="kevPortfolioText" class="header navey-nav-wrapper center text-lighten-2 cherry kevPortfolioText center-text">Kevin Huelsmann Portfolio</h1>
         <div class="row center kev-div">
-          <img id="kevPic" class="z-depth-2 hidden" src="Kev.png" alt="Kev Mug">
-           <img class="black-ring1 black-ring" src="black-ring.png">
+          <img id="kevPic" class="z-depth-2" src="Kev.png" alt="Kev Mug">
+      <!--      <img class="black-ring1 black-ring" src="black-ring.png">
           <img class="black-ring2 black-ring" src="black-ring.png">
           <img class="black-ring3 black-ring" src="black-ring.png">
-          <img class="black-ring4 black-ring" src="black-ring.png">
-          <img class="black-ring5 black-ring" src="black-ring.png">
+          <img class="black-ring4 black-ring" src="black-ring.png"> -->
+        <!--   <img class="black-ring5 black-ring" src="black-ring.png">
+          <img class="black-ring6 black-ring" src="black-ring.png"> -->
+ <!--          <div class="area">
+            <div class="black-ring black-ring1"></div>
+            <div class="black-ring black-ring2"></div>
+            <div class="black-ring black-ring3"></div>
+            <div class="black-ring black-ring4"></div>
+            </div> -->
 
           <h5 class="header header1 center col s12 strokeText light center-text" id="aboutMeText">Hi. My name's Kevin, I'm a front end developer with an interest in the MEAN stack.  I enjoy programming because I am full of creative ideas and enjoy bringing them into reality.  I love design and I'm a Photoshop ninja!</h5>
         </div>
@@ -116,7 +124,7 @@ $(document).ready(function(){
       </div>
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1">
+    <div class="parallax"><img id="background1" src="background1.jpg" alt="Unsplashed background img 1">
     </div>
   </div>
 
@@ -126,11 +134,11 @@ $(document).ready(function(){
 </br>
   <!-- PROJECTS -->
   <div class="container">
-    <div class="section">
+    <div id="section1" class="section">
       <div class="center">
       </div>
 
-        <h2 class="center black-text" id="samples">WEB APP SAMPLES</h2>
+        <h2 class="center black-text cherry" id="samples">WEB APP SAMPLES</h2>
 
         <div class="row">
 
@@ -151,7 +159,7 @@ $(document).ready(function(){
               <div class="icon-block">
                 <a href="https://kjh311.github.io/movie-buddy/" target="_blank">
                 <div class="highlightText z-depth-1">
-                    <h4 class="center text-shadow">Movie Buddy</h4>
+                    <h4 class="center cherry text-shadow">Movie Buddy</h4>
                     <img id="bannerPic" src="movie-buddy.png">
                   </div>
                   </a>
@@ -163,7 +171,7 @@ $(document).ready(function(){
                 <div class="icon-block">
                   <a href="https://craft-beerzilla.herokuapp.com/" target="_blank">
                 <div class="highlightText z-depth-1">
-                <h4 class="center text-shadow ">Craft Beer-Zilla</h4>
+                <h4 class="center cherry text-shadow ">Craft Beer-Zilla</h4>
                 <img id="project4Pic" src="Project4.jpg"></div></a>
                 <h5 class="light center project">This project was designed as a craft brewery and beer reviewer.  It uses the MEAN stack and grabs the data through a third party API.</h5>
               </div>
@@ -179,7 +187,7 @@ $(document).ready(function(){
                    <div class="icon-block">
                     <a href="http://kjh311.github.io/Game_of_Thrones_Concentration_Game/" target="_blank">
                     <div class="highlightText z-depth-1">
-                  <h4 class="center text-shadow">Game of Thrones Concentration Game</h4>
+                  <h4 class="center cherry text-shadow">Game of Thrones Concentration Game</h4>
                   <img id="project1Pic" src="Project1.jpg"></div></a>
                   <h5 class="light center project">This was a study in game logic with a heavy emphasis on jQuery and CSS.</h5>
 
@@ -199,7 +207,7 @@ $(document).ready(function(){
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
-            <h3 class="header header2 col center s12 light center-text" id="hobbies">In addition to programming I enjoy art, animation, and travel</h3>
+            <h3 class="header header2 cherry col center s12 light center-text" id="hobbies">In addition to programming I enjoy art, animation, and travel</h3>
           </div>
         </div>
         <br><br>
@@ -224,7 +232,7 @@ $(document).ready(function(){
               <div class="icon-block">
                 <a href="art.html">
                 <div class="highlightText z-depth-1">
-                <h4 class="center text-shadow">Art Portfolio</h4>
+                <h4 class="center cherry text-shadow">Art Portfolio</h4>
                 <img id="artPic" src="artPic.jpg"></div></a>
                 <h5 class="light center">My portfolio of some digital art I've done in Photoshop as well as acrylic on canvas.</h5>
               </div>
@@ -235,7 +243,7 @@ $(document).ready(function(){
                 <div class="icon-block">
                   <a href="animation.html">
                   <div class="highlightText z-depth-1">
-                  <h4 class="center text-shadow">Animation Portfolio</h4>
+                  <h4 class="center cherry text-shadow">Animation Portfolio</h4>
                   <img id="animationPic" src="animationPic.jpg"></div></a>
                   <h5 class="light center">My portfolio of animation I've done for Animation Mentor.</h5>
                 </div>
@@ -247,7 +255,7 @@ $(document).ready(function(){
                   <div class="icon-block">
                     <a href="https://www.travelblog.org/Bloggers/Kevin-and-Amarryn/" target="_blank">
                     <div class="highlightText z-depth-1">
-                    <h4 class="center text-shadow">Travel Blog</h4>
+                    <h4 class="center cherry text-shadow">Travel Blog</h4>
                    <img id="travelPic" src="travelPic.jpg"></div></a>
 
                     <h5 class="light center">A travel blog I've written about our adventures through 30+ countries.</h5>
@@ -268,7 +276,7 @@ $(document).ready(function(){
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h3 class="header header3 center col s12 light interestsText center-text">Education</h3>
+          <h3 class="header cherry header3 center col s12 light interestsText center-text">Education</h3>
         </div>
       </div>
     </div>
@@ -330,7 +338,7 @@ $(document).ready(function(){
   <div class="section no-pad-bot">
     <div class="container">
       <div class="row center">
-        <h3 id="contact-kevin" class="header header4 col center s12 light center-text">Contact Kevin Huelsmann!!</h3>
+        <h3 id="contact-kevin" class="header cherry header4 col center s12 light center-text">Contact Kevin Huelsmann!!</h3>
       </div>
     </div>
   </div>
@@ -399,6 +407,7 @@ $(document).ready(function(){
 <script src="./assets/jquery-1.11.3.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script> 
 
 </body>
 </html>
