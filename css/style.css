@@ -509,6 +509,10 @@ p {
     width: 100px;
     margin-top: -50px;
   }
+  #kev-text{
+    position: relative;
+    margin-left: 25px !important;
+  }
   .black-ring{
     width: 180px;
     margin-top: -60px;
