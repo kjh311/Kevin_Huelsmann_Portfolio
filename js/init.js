@@ -124,6 +124,9 @@ TweenLite.to(background1, 1, {opacity:1, ease:Power1.easeOut});
 
 
 
+
+
+
 // var items = $("#gallery li");
 // var itemsByTags = [];
 // items.each(function(i){
@@ -180,7 +183,6 @@ TweenLite.to(background1, 1, {opacity:1, ease:Power1.easeOut});
 
 
 // }
-
 
 
 

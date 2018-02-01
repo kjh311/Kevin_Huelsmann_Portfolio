@@ -65,6 +65,9 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+
+
 </script>
 </head>
   <A NAME="top" id="top">
@@ -247,7 +250,7 @@ $(document).ready(function(){
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
-            <h3 class="header header2 cherry col center s12 light center-text" id="hobbies">In addition to programming I enjoy art, animation, and travel</h3>
+            <h3 class="header header2 cherry col center s12 light center-text no-opacity" id="hobbies">In addition to programming I enjoy art, animation, and travel</h3>
           </div>
         </div>
         <br><br>
@@ -316,7 +319,7 @@ $(document).ready(function(){
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h3 class="header cherry header3 center col s12 light interestsText center-text">Education</h3>
+          <h3 class="header cherry header3 center col s12 light interestsText center-text no-opacity" id="education">Education</h3>
         </div>
       </div>
     </div>
@@ -378,7 +381,7 @@ $(document).ready(function(){
   <div class="section no-pad-bot">
     <div class="container">
       <div class="row center">
-        <h3 id="contact-kevin" class="header cherry header4 col center s12 light center-text">Contact Kevin Huelsmann!!</h3>
+        <h3 id="contact-kevin" class="header cherry header4 col center s12 light center-text no-opacity">Contact Kevin Huelsmann!!</h3>
       </div>
     </div>
   </div>
@@ -449,6 +452,28 @@ $(document).ready(function(){
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/jquery-waypoints@2.0.5/waypoints.js" type="text/javascript" charset="utf-8"></script>
 
+<script>
+$(document).ready(function() {
+
+$('#hobbies').waypoint(function() {
+    $('#hobbies').removeClass("no-opacity").addClass("opacity");
+}, {offset:'500px'});
+
+
+$('#education').waypoint(function() {
+    $('#education').removeClass("no-opacity").addClass("opacity");
+}, {offset:'500px'});
+
+$('#contact-kevin').waypoint(function() {
+    $('#contact-kevin').removeClass("no-opacity").addClass("opacity");
+}, {offset:'500px'});
+
+
+});
+
+
+</script>
 </body>
 </html>

@@ -42,7 +42,9 @@ iframe:hover{
   -moz-transition: border 0.5s, box-shadow 0.5s;
   -o-transition: border 0.5s, box-shadow 0.5s;
 }
-
+#hobbies{
+   
+}
 i{
   /*padding: 5px;*/
   /*box-shadow: 2px 2px 2px black;*/
@@ -56,7 +58,9 @@ i{
 .thumbnail{
   max-width: 300px;
 }
+.seen{
 
+}
 
  #aboutMeText{
   margin-bottom: 20px;
@@ -419,6 +423,20 @@ nav .brand-logo {
 .hidden{
   visibility: hidden;
 }
+.no-opacity{
+  opacity: 0;
+  transition: all 0.5s ease;
+  -webkit-transform: scale(0.7, 0.7);
+  -ms-transform: scale(0.7, 0.7);
+  transform: scale(0.7, 0.7);
+}
+.opacity{
+  opacity: 1;
+  transition: all 0.5s ease;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
  .highlightText{
   box-shadow: 3px 3px 3px rgba(0,0,0,0.4);
   border: 5px solid rgba(0,255,255,0.2);
@@ -513,6 +531,7 @@ p {
   }
   .header2{
     margin-top: -10px !important;
+
   }
   #kevPic{
     width: 150px;
