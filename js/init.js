@@ -91,7 +91,7 @@ TweenLite.to(portText23, 0.7, {opacity:1, left:775,  ease:Power3.easeOut, delay:
 
 
 var aboutMeText = document.getElementById("aboutMeText");
-TweenLite.to(aboutMeText, 1, {opacity:1, top: -10, ease:Power2.easeOut, delay:2.3});
+TweenLite.to(aboutMeText, 1, {opacity:1, top: -10, ease:Power2.easeOut, delay:2.4});
 
 
 
