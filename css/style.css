@@ -191,6 +191,9 @@ h5{
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
   animation-duration: 1.5s;*/
+  -webkit-transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8);
   z-index: 11;
   margin-top: 170px;
   /*position: absolute;*/

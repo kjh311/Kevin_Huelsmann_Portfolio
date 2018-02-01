@@ -112,7 +112,7 @@ TweenLite.to(aboutMeText, 1, {opacity:1, top: -10, ease:Power2.easeOut, delay:2.
 // TweenLite.to(link4, 1, {opacity:1, ease:Power2.easeOut, delay:0.5});
 
 var kevPic = document.getElementById("kevPic");
-TweenLite.to(kevPic, 1.5, {opacity:1, ease:Power2.easeOut, delay:2});
+TweenLite.to(kevPic, 1, {opacity:1, scaleX:1, scaleY:1, ease:Power2.easeOut, delay:2});
 
 var background1 = document.getElementById("background1");
 TweenLite.to(background1, 1, {opacity:1, ease:Power1.easeOut});
