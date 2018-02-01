@@ -15,7 +15,7 @@ var kevPortfolioText2 = document.getElementById("kevPortfolioText2");
 TweenLite.to(kevPortfolioText2, 1, {opacity:1, left:0, ease:Power2.easeOut, delay:0.8});
 
 var portText1 = document.getElementById("portText1");
-TweenLite.to(portText1, 0.7, {opacity:1, left:80, ease:Power3.easeOut, delay:0.5});
+TweenLite.to(portText1, 0.7, {opacity:1, left:75, ease:Power3.easeOut, delay:0.5});
 
 var portText2 = document.getElementById("portText2");
 TweenLite.to(portText2, 0.7, {opacity:1, left:115, ease:Power3.easeOut, delay:0.55});
@@ -54,7 +54,7 @@ var portText13 = document.getElementById("portText13");
 TweenLite.to(portText13, 0.7, {opacity:1, left:470, ease:Power3.easeOut, delay:1.1});
 
 var portText14 = document.getElementById("portText14");
-TweenLite.to(portText14, 0.7, {opacity:1, left:500, ease:Power3.easeOut, delay:1.15});
+TweenLite.to(portText14, 0.7, {opacity:1, left:503, ease:Power3.easeOut, delay:1.15});
 
 var portText15 = document.getElementById("portText15");
 TweenLite.to(portText15, 0.7, {opacity:1, left:550, ease:Power3.easeOut, delay:1.2});
@@ -78,10 +78,10 @@ var portText21 = document.getElementById("portText21");
 TweenLite.to(portText21, 0.7, {opacity:1, left:735, ease:Power3.easeOut, delay:1.5});
 
 var portText22 = document.getElementById("portText22");
-TweenLite.to(portText22, 0.7, {opacity:1, left:755, ease:Power3.easeOut, delay:1.55});
+TweenLite.to(portText22, 0.7, {opacity:1, left:750, ease:Power3.easeOut, delay:1.55});
 
 var portText23 = document.getElementById("portText23");
-TweenLite.to(portText23, 0.7, {opacity:1, left:775,  ease:Power3.easeOut, delay:1.6});
+TweenLite.to(portText23, 0.7, {opacity:1, left:765,  ease:Power3.easeOut, delay:1.6});
 
 
 
