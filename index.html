@@ -336,6 +336,7 @@ $(document).ready(function(){
         <!--   Icon Section   -->
         <div class="row">
           <div class="col s12 m6">
+
             <div class="icon-block">
               <a href="https://generalassemb.ly" target="_blank">
               <div class="highlightText blue-grey lighten-4 z-depth-1">
@@ -347,7 +348,7 @@ $(document).ready(function(){
                 <ul>
                   <li class="text">- Ability to work on a team</li>
                   <li class="text">- The ability to problem solve</li>
-                  <li class="text">- Ability to use the MEAN stack and Ruby on Rails</li>
+                  <li class="text">- Ability to use the MEAN stack</li>
                   <li class="text">- Knowledge of best practices</li>
                   <li class="text">- Test-Driven Development</li>
                 </ul>
@@ -366,9 +367,30 @@ $(document).ready(function(){
                   I have developed a greater sense of creativity, visual design, and user experience.</h5>
                 </div>
               </div>
+
+              <div class="col s12 m6">
+
+              <div class="icon-block">
+                <a href="http://www.unm.edu" target="_blank">
+                <div class="highlightText blue-grey lighten-4 z-depth-1">
+                <h2 class="center brown-text"><!-- <i class="material-icons">group</i> --></h2>
+                <!-- <h3 class="center"></h3> -->
+                <img id="AmLogo" src="unm.jpg">
+              </div></a>
+                <h5 class="light center">University of New Mexico.</br> Bachelor's Degree in Fine Arts.</h5>
+                </div>
+              </div>
+            </div>
+
             </div>
           </div>
-        </div>
+
+
+          <!-- <div class="row"> -->
+          
+         <!--  </div>
+
+        </div> -->
 
 
 
@@ -397,19 +419,21 @@ $(document).ready(function(){
     <div class="row">
         <div class="col center l12 s12">
           <!-- <div class="card-panel teal"> -->
-           <h5 class="white-text"><i class="fa fa-phone" aria-hidden="true"></i> Phone: (505) 999-8141</h5>
-           <h5 class="white-text">Email:
+           <h5 class="white-text phone zoom-right-before"><i class="fa fa-phone" aria-hidden="true"></i> Phone: (505) 999-8141</h5>
+           <h5 class="white-text email-zoom zoom-right-before">Email:
 
            </h5>
-           <h5 class="white-text " id="email">
+           <h5 class="white-text  email-zoom zoom-right-before" id="email">
             <a class="link text emailText contact-wrap" href="mailto:kjh311@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> KJH311@GMAIL.COM</a>
           </h5>
-           <h5 class="white-text">Github:</h5>
-           <h5 class="white-text">
+
+           <h5 class="white-text github-zoom zoom-right-before">Github:</h5>
+           <h5 class="white-text github-zoom zoom-right-before">
             <a class="link text contact-wrap" href="https://github.com/kjh311" target="_blank" title=""><i class="fa fa-github" aria-hidden="true"></i> https://github.com/kjh311</a>
           </h5>
-           <h5 class="white-text">LinkedIn:</h5>
-           <h5 class="white-text contact-wrap" >
+
+           <h5 class="white-text linkedin-zoom zoom-right-before">LinkedIn:</h5>
+           <h5 class="white-text contact-wrap linkedin-zoom zoom-right-before" >
 
             <a id="wordWrap" class="link text" href="https://www.linkedin.com/in/kevinhuelsmann" target="_blank"title=""><i class="fa fa-linkedin" aria-hidden="true"></i> https://www.linkedin.com/in/kevinhuelsmann</a>
           </h5>
@@ -418,12 +442,12 @@ $(document).ready(function(){
 
 
 
-         <h5 class="white-text">Download Resume:</h5>
+         <h5 class="white-text resume-zoom zoom-right-before">Download Resume:</h5>
          <ul>
           <li class="button-li">
          <form method="get" action="Kevin_Huelsmann_Tech_Resume.pdf" target="_blank">
 <!--           <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
- -->           <button class="pdf-button button z-depth-1"><h5 id="resume-pdf">PDF <i class="fa fa-file-pdf-o" aria-hidden="true"></i></h5></button>
+ -->           <button class="pdf-button button z-depth-1 resume-zoom zoom-right-before"><h5 id="resume-pdf">PDF <i class="fa fa-file-pdf-o" aria-hidden="true"></i></h5></button>
 
   <!--        </form>
          </li>
@@ -468,6 +492,22 @@ $('#education').waypoint(function() {
 
 $('#contact-kevin').waypoint(function() {
     $('#contact-kevin').removeClass("no-opacity").addClass("opacity");
+}, {offset:'500px'});
+
+$('.phone').waypoint(function() {
+    $('.phone').removeClass("zoom-right-before").addClass("zoom-right");
+    setTimeout(
+  function() 
+  {$('.email-zoom').removeClass("zoom-right-before").addClass("zoom-right");}, 150);
+    setTimeout(
+  function() 
+  {$('.github-zoom').removeClass("zoom-right-before").addClass("zoom-right");}, 300);
+    setTimeout(
+  function() 
+  {$('.linkedin-zoom').removeClass("zoom-right-before").addClass("zoom-right");}, 450);
+        setTimeout(
+  function() 
+  {$('.resume-zoom').removeClass("zoom-right-before").addClass("zoom-right");}, 600);
 }, {offset:'500px'});
 
 
