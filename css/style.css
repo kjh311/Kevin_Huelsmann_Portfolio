@@ -230,7 +230,9 @@ button:hover{
 }
 footer.page-footer {
   margin: 0;
-  background: #003E5B;
+  /*background: linear-gradient(#003E5B, black);*/
+  background: linear-gradient(#009aa4, #02547a, #001924);
+  /*background: ;*/
 }
 .footer-copyright{
   background: #201534;
@@ -419,7 +421,7 @@ h5{
    left: 645px;
 }
 .white-text{
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .link{
   max-width: 100%;
