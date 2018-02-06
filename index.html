@@ -243,7 +243,7 @@ $(document).ready(function(){
                     <div class="highlightText blue-grey lighten-4 z-depth-1">
                   <h4 class="center cherry text-shadow">Game of Thrones Concentration Game</h4>
                   <img id="project1Pic" src="Project1.jpg"></div></a>
-                  <h5 class="light center project">This was a study in game logic with a heavy emphasis on jQuery and CSS.</h5>
+                  <h5 class="light center project">This was a study in game logic with a heavy emphasis on jQuery, CSS, and HTML.</h5>
                 </div>
 
 
@@ -435,7 +435,7 @@ $(document).ready(function(){
     <div class="row">
         <div class="col center l12 s12">
           <!-- <div class="card-panel teal"> -->
-           <h5 class="white-text phone zoom-right-before"><i class="fa fa-phone" aria-hidden="true"></i> Phone: (505) 999-8141</h5>
+           <h5 class="white-text phone zoom-right-before"><i class="fa fa-phone " aria-hidden="true"></i> Phone:<span class="yellow-text"> (505) 999-8141</span> </h5>
            <h5 class="white-text email-zoom zoom-right-before">Email:
 
            </h5>
@@ -527,7 +527,9 @@ $('.phone').waypoint(function() {
 }, {offset:'500px'});
 
 $('#samples1').waypoint(function() {
-    $('#samples1').removeClass("samples-before").addClass("samples-after");
+  setTimeout(
+  function() 
+  {$('#samples1').removeClass("samples-before").addClass("samples-after");}, 0);
     setTimeout(
   function() 
   {$('#samples2').removeClass("samples-before").addClass("samples-after");}, 100);
@@ -545,25 +547,25 @@ $('#samples1').waypoint(function() {
   {$('#samples6').removeClass("samples-before").addClass("samples-after");}, 500);
     setTimeout(
   function() 
-  {$('#samples7').removeClass("samples-before").addClass("samples-after");}, 600);
+  {$('#samples7').removeClass("samples-before").addClass("samples-after");}, 575);
     setTimeout(
   function() 
-  {$('#samples8').removeClass("samples-before").addClass("samples-after");}, 700);
+  {$('#samples8').removeClass("samples-before").addClass("samples-after");}, 650);
     setTimeout(
   function() 
-  {$('#samples9').removeClass("samples-before").addClass("samples-after");}, 800);
+  {$('#samples9').removeClass("samples-before").addClass("samples-after");}, 725);
     setTimeout(
   function() 
-  {$('#samples10').removeClass("samples-before").addClass("samples-after");}, 900);
+  {$('#samples10').removeClass("samples-before").addClass("samples-after");}, 800);
     setTimeout(
   function() 
-  {$('#samples11').removeClass("samples-before").addClass("samples-after");}, 1000);
+  {$('#samples11').removeClass("samples-before").addClass("samples-after");}, 825);
     setTimeout(
   function() 
-  {$('#samples12').removeClass("samples-before").addClass("samples-after");}, 1100);
+  {$('#samples12').removeClass("samples-before").addClass("samples-after");}, 900);
      setTimeout(
   function() 
-  {$('#samples13').removeClass("samples-before").addClass("samples-after");}, 1200);
+  {$('#samples13').removeClass("samples-before").addClass("samples-after");}, 1025);
 }, {offset:'500px'});
 
 

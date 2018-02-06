@@ -418,6 +418,9 @@ h5{
 #portText23{
    left: 645px;
 }
+.white-text{
+  margin-bottom: 20px;
+}
 .link{
   max-width: 100%;
   border: 5px solid rgba(0,150,255,0.2);
@@ -425,6 +428,8 @@ h5{
   padding: 10px;
   color: #F9FF56;
   text-shadow: 1px 1px black;
+  /*margin-bottom: 210px;*/
+  /*position: relative;*/
 }
 .material-icons{
   color: black;
@@ -744,6 +749,9 @@ p {
   /*.navey-nav-wrapper{
   margin-top: -100px !important;
 }*/
+.yellow-text{
+  color: #F9FF56;
+}
   .samples{
     /*font-size: 30px;*/
   }
