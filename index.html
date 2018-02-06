@@ -21,6 +21,7 @@
 
   <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Cherry+Cream+Soda|Russo+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo|Permanent+Marker|Rammetto+One|Shrikhand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -168,9 +169,24 @@ $(document).ready(function(){
       <div class="center">
       </div>
 
-        <h2 class="center black-text cherry" id="samples">WEB APP SAMPLES</h2>
+        <h2 class="center black-text cherry" id="samples-orig">WEB APP SAMPLES</h2>
+        <ul class="samplesText">
+          <li class="samples samples-before" id="samples1">W</li>
+          <li class="samples samples-before" id="samples2">E</li>
+          <li class="samples samples-before" id="samples3">B</li>
+          <li class="samples samples-before" id="samples4">A</li>
+          <li class="samples samples-before" id="samples5">P</li>
+          <li class="samples samples-before" id="samples6">P</li>
+          <li class="samples samples-before" id="samples7">S</li>
+          <li class="samples samples-before" id="samples8">A</li>
+          <li class="samples samples-before" id="samples9">M</li>
+          <li class="samples samples-before" id="samples10">P</li>
+          <li class="samples samples-before" id="samples11">L</li>
+          <li class="samples samples-before" id="samples12">E</li>
+          <li class="samples samples-before" id="samples13">S</li>
+        </ul>
 
-        <div class="row">
+        <div class="row project-blocks">
 
 
 
@@ -508,6 +524,46 @@ $('.phone').waypoint(function() {
         setTimeout(
   function() 
   {$('.resume-zoom').removeClass("zoom-right-before").addClass("zoom-right");}, 600);
+}, {offset:'500px'});
+
+$('#samples1').waypoint(function() {
+    $('#samples1').removeClass("samples-before").addClass("samples-after");
+    setTimeout(
+  function() 
+  {$('#samples2').removeClass("samples-before").addClass("samples-after");}, 100);
+    setTimeout(
+  function() 
+  {$('#samples3').removeClass("samples-before").addClass("samples-after");}, 200);
+    setTimeout(
+  function() 
+  {$('#samples4').removeClass("samples-before").addClass("samples-after");}, 300);
+    setTimeout(
+  function() 
+  {$('#samples5').removeClass("samples-before").addClass("samples-after");}, 400);
+    setTimeout(
+  function() 
+  {$('#samples6').removeClass("samples-before").addClass("samples-after");}, 500);
+    setTimeout(
+  function() 
+  {$('#samples7').removeClass("samples-before").addClass("samples-after");}, 600);
+    setTimeout(
+  function() 
+  {$('#samples8').removeClass("samples-before").addClass("samples-after");}, 700);
+    setTimeout(
+  function() 
+  {$('#samples9').removeClass("samples-before").addClass("samples-after");}, 800);
+    setTimeout(
+  function() 
+  {$('#samples10').removeClass("samples-before").addClass("samples-after");}, 900);
+    setTimeout(
+  function() 
+  {$('#samples11').removeClass("samples-before").addClass("samples-after");}, 1000);
+    setTimeout(
+  function() 
+  {$('#samples12').removeClass("samples-before").addClass("samples-after");}, 1100);
+     setTimeout(
+  function() 
+  {$('#samples13').removeClass("samples-before").addClass("samples-after");}, 1200);
 }, {offset:'500px'});
 
 

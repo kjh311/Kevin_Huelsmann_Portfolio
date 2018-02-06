@@ -83,10 +83,18 @@ TweenLite.to(portText22, 0.7, {opacity:1, left:750, ease:Power3.easeOut, delay:1
 var portText23 = document.getElementById("portText23");
 TweenLite.to(portText23, 0.7, {opacity:1, left:765,  ease:Power3.easeOut, delay:1.6});
 
+// var samples1 = document.getElementById("samples1");
+// TweenLite.to(samples1, 1, {opacity:1, marginLeft:-300,  ease:Power3.easeOut, delay:0.2});
 
+// var samples2 = document.getElementById("samples2");
+// TweenLite.to(samples2, 1, {opacity:1, marginLeft:-240,  ease:Power3.easeOut, delay:0.2});
 
-
-
+    // var options = [
+    //   {selector: '.samples', offset: 400, callback: function(el) {
+    //     Materialize.showStaggeredList($(el));
+    //   } }
+    // ];
+    // Materialize.scrollFire(options);
 
 
 

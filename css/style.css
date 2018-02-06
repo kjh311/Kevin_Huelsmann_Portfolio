@@ -45,6 +45,85 @@ iframe:hover{
 #hobbies{
    
 }
+.samples{
+  color: black;
+  display:  inline;
+  font-size: 55px;
+  position: absolute;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  /*opacity: 0.1;*/
+}
+.samplesText{
+  position: absolute;
+  /*position: relative;*/
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  /*left:49%;*/
+  margin-left: 35%;
+  /*margin-left: 450px;*/
+  /*font family*/
+  /*font-family: 'Acme', Tahoma, sans-serif;*/
+  font-family: 'Cherry Cream Soda', cursive;
+  /*font-family: 'Rammetto One', cursive;*/
+  /*font-family: 'Shrikhand', cursive;*/
+  /*font-family: 'Permanent Marker', cursive;*/
+  /*font-family: 'Boogaloo', cursive;*/
+}
+#samples1{
+  margin-left: 0px;
+}
+#samples2{
+  margin-left: 65px;
+}
+#samples3{
+  margin-left: 110px;
+}
+#samples4{
+  margin-left: 200px;
+}
+#samples5{
+  margin-left: 245px;
+}
+#samples6{
+  margin-left: 290px;
+}
+#samples7{
+  margin-left: 370px;
+}
+#samples8{
+  margin-left: 415px;
+}
+#samples9{
+  margin-left: 460px;
+}
+#samples10{
+  margin-left: 525px;
+}
+#samples11{
+  margin-left: 570px;
+}
+#samples12{
+  margin-left: 610px;
+}
+#samples13{
+  margin-left: 650px;
+}
+#samples-orig{
+  display: none;
+}
+.samples-before{
+  left: 0px;
+  transition: all 0.6s ease;
+  opacity: 0;
+}
+.samples-after{
+  left: -350px;
+  transition: all 0.6s ease;
+  opacity: 1;
+}
 i{
   /*padding: 5px;*/
   /*box-shadow: 2px 2px 2px black;*/
@@ -60,6 +139,9 @@ i{
 }
 .seen{
 
+}
+.project-blocks{
+  margin-top: 150px;
 }
 
  #aboutMeText{
@@ -562,8 +644,22 @@ p {
     position: absolute;
     top: 40%;
   }
-  #samples{
-    font-size: 35px;
+  .samples{
+    
+    display: none;
+  }
+  h2{
+    font-size: 45px;
+  }
+  #samples-orig{
+    display: inline;
+    
+    position: absolute;
+    margin-left:0 auto;
+    text-align: center;
+    margin-left: -2%;
+    width: 90%;
+    margin-right:0 auto;
   }
   .text-shadow{
     text-shadow: 2px 2px #black;
@@ -648,14 +744,17 @@ p {
   /*.navey-nav-wrapper{
   margin-top: -100px !important;
 }*/
-  #samples{
-    font-size: 30px;
+  .samples{
+    /*font-size: 30px;*/
   }
   #navbar a{
     padding: 12px 5px;
   }
   #sidenav-overlay{
     z-index: 999 !important;
+  }
+  h2{
+    font-size: 35px;
   }
 }
 
