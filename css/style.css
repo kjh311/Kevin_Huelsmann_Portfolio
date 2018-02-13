@@ -587,6 +587,7 @@ p {
   }
   #index-banner .section {
     top: 10%;
+    /*background: black;*/
   }
   .gallery-pic, .button, .hightlightText{
     -webkit-transform: scale(1);
