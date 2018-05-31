@@ -10,6 +10,8 @@
 //   $('.black-ring').fadeTo(3000, 0.05);; 
 // }, 1050);
 
+// alert('works');
+
 
 var kevPortfolioText2 = document.getElementById("kevPortfolioText2");
 TweenLite.to(kevPortfolioText2, 1, {opacity:1, left:0, ease:Power2.easeOut, delay:0.8});
