@@ -494,20 +494,58 @@ $(document).ready(function(){
 
 
 <!--  Scripts-->
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
+<!-- <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script> -->
+
 <script src="./assets/jquery-1.11.3.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script> 
+
+
+<!-- TWEENMAX -->
+<!-- <script src="js/tweenmaxlite.js" type="text/javascript" charset="utf-8" async defer></script> -->
+<!-- <script src="js/tweenmaxplugin.js" type="text/javascript" charset="utf-8" async defer></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
+<!-- <script src="js/tweenmax.js" type="text/javascript" charset="utf-8" async defer></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script> -->
+<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>  -->
+
+
+<!-- WAYPOINTS -->
+<!-- <script src="js/waypoints.js" type="text/javascript" charset="utf-8" async defer></script> -->
 <script src="https://cdn.jsdelivr.net/npm/jquery-waypoints@2.0.5/waypoints.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- APEAR.JS -->
+<script src="js/appear.js" type="text/javascript" charset="utf-8" async defer></script>
+
 
 <script>
 $(document).ready(function() {
 
+//   appear({
+//   init: function init(){
+//     alert('dom is ready');
+//   },
+//   elements: function elements(){
+//     // work with all elements with the class "track"
+//     return document.getElementsByClassName('track');
+//   },
+//   appear: function appear(el){
+//     console.log('visible', el);
+//   },
+//   disappear: function disappear(el){
+//     console.log('no longer visible', el);
+//   },
+//   bounds: 200,
+//   reappear: true
+// });
+
 $('#hobbies').waypoint(function() {
     $('#hobbies').removeClass("no-opacity").addClass("opacity");
+    console.log('waypoint firing');
 }, {offset:'500px'});
+
 
 
 $('#education').waypoint(function() {
