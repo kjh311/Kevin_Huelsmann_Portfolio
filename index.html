@@ -39,6 +39,7 @@
 
 <!-- JQUERY -->
 <script src="js/jquery.js" type="text/javascript" charset="utf-8" async defer></script>
+
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 <script src="node_modules/waypoints/src/debug.js"></script> -->
@@ -151,11 +152,28 @@ $(document).ready(function(){
         </ul>
 
         <div class="row center kev-div">
-          <img id="kevPic" class="z-depth-2" src="Kev.png" alt="Kev Mug">
+          
+            <!-- <div id="kevPicOuter"> -->
+              <!-- <span data-tilt> -->
+                <!-- <div class="kevPic-tilt" data-tilt> -->
+                  <img id="kevPic" class="z-depth-2" src="Kev.png" alt="Kev Mug">
+                <!-- </div> -->
+              
+              <!-- </span> -->
+            <!-- </div> -->
+
+<!--             <a data-tilt data-tilt-glare="true" data-tilt-max="7" class="c-logo"  title="Tilt.js demo website">
+  <span>Tilt.js</span>
+</a> -->
+
+            
+          
 
 
           <h5 class="header header1 center col s12 strokeText light center-text" id="aboutMeText">Hi. My name's Kevin, I'm a front end developer with an interest in the MEAN stack.  I enjoy programming because I am full of creative ideas and enjoy bringing them into reality.  I love design and I'm a Photoshop ninja!</h5>
         </div>
+
+
 
 
         <br><br>
@@ -163,7 +181,7 @@ $(document).ready(function(){
       </div>
       </div>
     </div>
-    <div class="parallax"><img id="background1" src="background1.jpg" alt="Unsplashed background img 1">
+    <div class="parallax"><img id="background1" src="images/background1.jpg" alt="Unsplashed background img 1">
     </div>
   </div>
 
@@ -232,7 +250,7 @@ $(document).ready(function(){
           <div class="section">
             <div class="row">
 
-              <div class="col s12 m6">
+              <div class="col s12 m6 ">
                 <div class="icon-block">
                   <a href="https://craft-beerzilla.herokuapp.com/" target="_blank">
                 <div class="highlightText blue-grey lighten-4 z-depth-1">
@@ -300,7 +318,7 @@ $(document).ready(function(){
                 <a href="art.html">
                 <div class="highlightText blue-grey lighten-4 z-depth-1">
                 <h4 class="center cherry text-shadow">Art Portfolio</h4>
-                <img id="artPic" src="artPic.jpg"></div></a>
+                <img id="artPic" src="images/artPic.jpg"></div></a>
                 <h5 class="light center">My portfolio of some digital art I've done in Photoshop as well as acrylic on canvas.</h5>
               </div>
               </div>
@@ -311,7 +329,7 @@ $(document).ready(function(){
                   <a href="animation.html">
                   <div class="highlightText blue-grey lighten-4 z-depth-1">
                   <h4 class="center cherry text-shadow">Animation Portfolio</h4>
-                  <img id="animationPic" src="animationPic.jpg"></div></a>
+                  <img id="animationPic" src="images/animationPic.jpg"></div></a>
                   <h5 class="light center">My portfolio of animation I've done for Animation Mentor.</h5>
                 </div>
               </div>
@@ -385,7 +403,7 @@ $(document).ready(function(){
                 <div class="highlightText blue-grey lighten-4 z-depth-1">
                 <h2 class="center brown-text"><!-- <i class="material-icons">group</i> --></h2>
                 <!-- <h3 class="center"></h3> -->
-                <img id="AmLogo" src="AM_Logo.jpg">
+                <img id="AmLogo" src="images/AM_Logo.jpg">
               </div></a>
                 <h5 class="light center">As a graduate of Animation Mentor's Digital Character Animation Course,
                   I have developed a greater sense of creativity, visual design, and user experience.</h5>
@@ -471,7 +489,13 @@ $(document).ready(function(){
           <li class="button-li">
          <form method="get" action="Kevin_Huelsmann_Tech_Resume.pdf" target="_blank">
 <!--           <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
- -->           <button class="pdf-button button z-depth-1 resume-zoom zoom-right-before"><h5 id="resume-pdf">PDF <i class="fa fa-file-pdf-o" aria-hidden="true"></i></h5></button>
+ -->         
+   
+<button class="pdf-button button z-depth-1 resume-zoom zoom-right-before"><h5 id="resume-pdf">PDF <i class="fa fa-file-pdf-o" aria-hidden="true"></i></h5></button>
+
+ 
+
+
 
   <!--        </form>
          </li>
@@ -502,6 +526,7 @@ $(document).ready(function(){
 <script src="js/init.js"></script>
 
 
+
 <!-- TWEENMAX -->
 <!-- <script src="js/tweenmaxlite.js" type="text/javascript" charset="utf-8" async defer></script> -->
 <!-- <script src="js/tweenmaxplugin.js" type="text/javascript" charset="utf-8" async defer></script> -->
@@ -515,7 +540,7 @@ $(document).ready(function(){
 <!-- WAYPOINTS -->
 <script src="js/jquery.waypoints.js" type="text/javascript" charset="utf-8"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/jquery-waypoints@2.0.5/waypoints.js" type="text/javascript" charset="utf-8"></script> -->
-
+<script src="js/tilt.jquery.js"" type="text/javascript" charset="utf-8" async defer></script>
 
 <!-- APEAR.JS -->
 <!-- <script src="js/appear.js" type="text/javascript" charset="utf-8" async defer></script> -->
@@ -523,7 +548,7 @@ $(document).ready(function(){
 
 <script>
 $(document).ready(function() {
-console.log('8')
+console.log('9')
 //   appear({
 //   init: function init(){
 //     alert('dom is ready');
@@ -589,8 +614,8 @@ $('.resume-zoom').waypoint(function() {
 //     });
 
 $('#samples1').waypoint(function() {
-  $('#samples1').removeClass("samples-before").addClass("samples-after");
-  $('#samples2').removeClass("samples-before").addClass("samples-after");
+  $('#samples1').removeClass("samples-before");
+  $('#samples1').delay(0).addClass("samples-after");
   $('#samples2').removeClass("samples-before").addClass("samples-after");
   $('#samples3').removeClass("samples-before").addClass("samples-after");
   $('#samples4').removeClass("samples-before").addClass("samples-after");
@@ -603,22 +628,39 @@ $('#samples1').waypoint(function() {
   $('#samples11').removeClass("samples-before").addClass("samples-after");
   $('#samples12').removeClass("samples-before").addClass("samples-after");     
   $('#samples13').removeClass("samples-before").addClass("samples-after");
+
 }, {offset:'500px'});
 
+// $('.button-tilt').tilt();
+// $('.kevPic-tilt').tilt();
+// $('.beer-tilt').tilt();
+// $('.brooks-tilt').tilt();
 
 
-    // $('#samples2').removeClass("samples-before").addClass("samples-after");
-    // $('#samples3').removeClass("samples-before").addClass("samples-after");
-    // $('#samples4').removeClass("samples-before").addClass("samples-after");
-    // $('#samples5').removeClass("samples-before").addClass("samples-after");
-    // $('#samples6').removeClass("samples-before").addClass("samples-after");
-    // $('#samples7').removeClass("samples-before").addClass("samples-after");
-    // $('#samples8').removeClass("samples-before").addClass("samples-after");
-    // $('#samples9').removeClass("samples-before").addClass("samples-after");
-    // $('#samples10').removeClass("samples-before").addClass("samples-after");
-    // $('#samples11').removeClass("samples-before").addClass("samples-after");
-    // $('#samples12').removeClass("samples-before").addClass("samples-after");     
-    // $('#samples13').removeClass("samples-before").addClass("samples-after");
+
+
+// $('#samples1').waypoint(function() {
+//   $("#samples2").addClass("error").delay(10).queue(function(){
+//       $(this).removeClass("error").dequeue();
+//       $('#samples2').addClass("samples-after");
+//   });
+// }, {offset:'500px'});
+
+// $('#samples1').waypoint(function() {
+//   $("#samples3").addClass("error").delay(30).queue(function(){
+//       $(this).removeClass("error").dequeue();
+//       $('#samples3').addClass("samples-after");
+//   });
+// }, {offset:'500px'});
+
+
+// $("#samples3").addClass("error").delay(30).queue(function(){
+//     $(this).removeClass("error").dequeue();
+//     $('#samples3').addClass("samples-after");
+// });
+
+
+
 
 
 });

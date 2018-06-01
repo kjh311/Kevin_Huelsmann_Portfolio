@@ -118,11 +118,13 @@ iframe:hover{
   left: 0px;
   transition: all 0.6s ease;
   opacity: 0;
+  transform: rotate(45deg);
 }
 .samples-after{
   left: -350px;
   transition: all 1s ease;
   opacity: 1;
+  transform: rotate(0deg);
 }
 
 i{
@@ -130,6 +132,49 @@ i{
   /*box-shadow: 2px 2px 2px black;*/
   border-radius: 50%;
   color: white;
+}
+
+.c-logo {
+  $size: 300px;
+  /*width: $size;*/
+  height: $size;
+  /*background-color: #7e56ff;*/
+  /*background-image: linear-gradient(150deg, #5a00ff 0%, #ff1ff7 100%, #ff1ff7 100%);*/
+  box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-size: 4em;
+  font-weight: 300;
+  transform-style: preserve-3d;
+  transform: perspective(500px);
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    /*width: 100%;*/
+    box-shadow: 0 20px 70px -10px rgba(black, .7), 0 50px 100px 0 rgba(black, .2);
+    z-index: -1;
+    transform: translateZ(-20px);
+    transition: .5s;
+  }
+
+  > span {
+    display: block;
+    transform: translateZ(50px) scale(.7);
+  }
+
+  &:hover {
+    &:after{
+      transform: translateZ(-50px);
+    }
+  }
 }
 
 .fa-file-pdf-o, .fa-file-word-o{
@@ -283,11 +328,17 @@ h5{
     opacity: 1;
   }
 }*/
+#kevPicOuter{
+  /*transform-style: preserve-3d;*/
+}
+
 #kevPic{
   border: 5px solid white;
   border-radius: 50%;
   width: 250px;
   position: absolute;
+  transform-style: preserve-3d;
+  /*position: relative;*/
 /*  animation-name: potrait;
   -webkit-animation-name: potrait;
   -moz-animation-name: potrait;
@@ -309,7 +360,9 @@ h5{
   /*left: -50px;*/
   /*animation-delay: 1s;*/
   /*margin-bottom: 200px;*/
+  transform: translateZ(20px);
 }
+
 /*.header{
   margin-top: 50px;
 }*/
