@@ -523,7 +523,7 @@ $(document).ready(function(){
 
 <script>
 $(document).ready(function() {
-console.log('5')
+console.log('6')
 //   appear({
 //   init: function init(){
 //     alert('dom is ready');
@@ -561,18 +561,14 @@ $('#contact-kevin').waypoint(function() {
 
 $('.phone').waypoint(function() {
     $('.phone').removeClass("zoom-right-before").addClass("zoom-right");
-    setTimeout(
-  function() 
-  {$('.email-zoom').removeClass("zoom-right-before").addClass("zoom-right");}, 150);
-    setTimeout(
-  function() 
-  {$('.github-zoom').removeClass("zoom-right-before").addClass("zoom-right");}, 300);
-    setTimeout(
-  function() 
-  {$('.linkedin-zoom').removeClass("zoom-right-before").addClass("zoom-right");}, 450);
-        setTimeout(
-  function() 
-  {$('.resume-zoom').removeClass("zoom-right-before").addClass("zoom-right");}, 600);
+
+  $('.email-zoom').removeClass("zoom-right-before").addClass("zoom-right");
+
+  $('.github-zoom').removeClass("zoom-right-before").addClass("zoom-right");
+
+  $('.linkedin-zoom').removeClass("zoom-right-before").addClass("zoom-right");
+    
+  $('.resume-zoom').removeClass("zoom-right-before").addClass("zoom-right");
 }, {offset:'500px'});
 
 // $(".samplesText" ).each(function(){
