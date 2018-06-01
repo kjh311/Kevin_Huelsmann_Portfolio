@@ -523,7 +523,7 @@ $(document).ready(function(){
 
 <script>
 $(document).ready(function() {
-console.log('6')
+console.log('7')
 //   appear({
 //   init: function init(){
 //     alert('dom is ready');
@@ -553,23 +553,31 @@ $('#hobbies').waypoint(function() {
 
 $('#education').waypoint(function() {
     $('#education').removeClass("no-opacity").addClass("opacity");
-}, {offset:'500px'});
+}, {offset:'600px'});
 
 $('#contact-kevin').waypoint(function() {
     $('#contact-kevin').removeClass("no-opacity").addClass("opacity");
-}, {offset:'500px'});
+}, {offset:'600px'});
 
 $('.phone').waypoint(function() {
     $('.phone').removeClass("zoom-right-before").addClass("zoom-right");
+}, {offset:'600px'});
 
-  $('.email-zoom').removeClass("zoom-right-before").addClass("zoom-right");
+$('.email-zoom').waypoint(function() {
+    $('.email-zoom').removeClass("zoom-right-before").addClass("zoom-right");
+}, {offset:'600px'});
 
-  $('.github-zoom').removeClass("zoom-right-before").addClass("zoom-right");
+$('.github-zoom').waypoint(function() {
+    $('.github-zoom').removeClass("zoom-right-before").addClass("zoom-right");
+}, {offset:'600px'});
 
-  $('.linkedin-zoom').removeClass("zoom-right-before").addClass("zoom-right");
-    
-  $('.resume-zoom').removeClass("zoom-right-before").addClass("zoom-right");
-}, {offset:'500px'});
+$('.linkedin-zoom').waypoint(function() {
+    $('.linkedin-zoom').removeClass("zoom-right-before").addClass("zoom-right");
+}, {offset:'600px'});
+
+$('.resume-zoom').waypoint(function() {
+    $('.resume-zoom').removeClass("zoom-right-before").addClass("zoom-right");
+}, {offset:'600px'});
 
 // $(".samplesText" ).each(function(){
 //         var $this = $(this);
