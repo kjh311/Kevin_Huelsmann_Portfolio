@@ -116,7 +116,9 @@ iframe:hover{
 }
 .samples-before{
   left: 0px;
-  transition: all 0.6s ease;
+  -webkit-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
   opacity: 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -124,6 +126,8 @@ iframe:hover{
 }
 .samples-after{
   left: -350px;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
   transition: all 1s ease;
   opacity: 1;
   -webkit-transform: rotate(0deg);
