@@ -5,7 +5,17 @@
  *
  * Made By MaterializeCSS.com
  */
-
+*{
+  /*overflow-x: hidden;*/
+}
+.first{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
 iframe{
   border: 2px solid black;
 }
@@ -116,23 +126,15 @@ iframe:hover{
 }
 .samples-before{
   left: 0px;
-  -webkit-transition: all 1s ease;
--o-transition: all 1s ease;
-transition: all 1s ease;
+  transition: all 0.6s ease;
   opacity: 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  /*transform: rotate(45deg);*/
 }
 .samples-after{
   left: -350px;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
   transition: all 1s ease;
   opacity: 1;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
+  /*transform: rotate(0deg);*/
 }
 
 i{
@@ -312,6 +314,14 @@ h5{
 }
 #background1 {
   opacity: 0;
+}
+#background2 {
+  /*opacity: 0;*/
+  position: relative;
+  /*margin-top: 100px;*/
+  bottom: 0 !important;
+  /*margin: 0 auto;*/
+  z-index: 10;
 }
 .cherry{
   font-family: 'Cherry Cream Soda', cursive;
@@ -526,6 +536,10 @@ h5{
 footer{
   text-align: center;
 }
+.svg{
+  width: 100%;
+  object-fit: cover;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -595,6 +609,9 @@ nav .brand-logo {
 }
 p {
   line-height: 2rem;
+}
+.paralax{
+  position: relative;
 }
 .parallax-container {
   min-height: 380px;
